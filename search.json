@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Course: CSC:XXX Course Title\nDocumentation",
+    "title": "Course: CSC:483 Special Topics - Applied Biological Data Science\nDocumentation",
     "section": "",
-    "text": "Welcome\nThe course website for CSCXXX, part of the Union College CS curriculum. Here you can find our wekkly schedule, assignmnets and resources.",
+    "text": "Welcome\nThe course website for CSC483, part of the Union College CS curriculum. Here you can find our weekly schedule, assignmnets and resources.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -12,9 +12,9 @@
   {
     "objectID": "index.html#announcements",
     "href": "index.html#announcements",
-    "title": "Course: CSC:XXX Course Title\nDocumentation",
+    "title": "Course: CSC:483 Special Topics - Applied Biological Data Science\nDocumentation",
     "section": "Announcements",
-    "text": "Announcements\n\nUpcoming due dates\nNext assignments is due …\n\n\nOffice Hours",
+    "text": "Announcements\n\nUpcoming due dates\nNext assignments is due …\n\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nWednesday 2:00 pm - 3:30 pm\nThursday 4:00 pm - 5:30 pm\nsubject to change, check course website for most up-tp-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -22,9 +22,9 @@
   {
     "objectID": "index.html#course-description",
     "href": "index.html#course-description",
-    "title": "Course: CSC:XXX Course Title\nDocumentation",
+    "title": "Course: CSC:483 Special Topics - Applied Biological Data Science\nDocumentation",
     "section": "Course Description",
-    "text": "Course Description",
+    "text": "Course Description\nIn this course we will gain familiarity and practice in methods of analyzing biological sequence data and the large datasets that have resulted from decades of high-throughput experimentation. We will follow how data are turned into biological knowledge through the general workflow of (1) sequence alignment, (2) dimensionality reduction and (3) statistical, comparative hypothesis testing. At each stage we will compare state-of-the-art deterministic methods with emerging machine learning-based counterparts and interrogate trade-offs in performance and interpretability. We will explore the role of interdisciplinary communication in biological data science and the iterative process of program development and implementation in exploring the great biological unknowns. This course will use Python and R and introduce libraries useful in applied computer science and guidance on how different approaches are used in different contexts. No prior biological knowledge will be assumed.\nPrerequisite(s): MTH 197 and a C- or higher in CSC 151. Recommended: CSC 250. MTH 199 can be substituted for MTH 197 CC: SET Note: Course can be repeated for credit under different topics. Consult with the department chair for more information.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -44,9 +44,39 @@
     "href": "02-Main/schedule.html#schedule",
     "title": "Schedule",
     "section": "",
-    "text": "Week\nTopic\nAssignment\n\n\n\n\n1\ntopic…\nassignment…\n\n\n2\ntopic…\nassignment…\n\n\n3\ntopic…\nassignment…\n\n\n4\ntopic…\nassignment…\n\n\n5\ntopic…\nassignment…\n\n\n6\ntopic…\nassignment…\n\n\n7\ntopic…\nassignment…\n\n\n8\ntopic…\nassignment…\n\n\n9\ntopic…\nassignment…\n\n\n10\ntopic…\nassignment…",
+    "text": "W\nTOPIC\nDue\nNotes\n\n\n\n\n1\nScope of Biological Data\nHW 01\n\n\n\n2\nArc of Analyses\nHW 02\n\n\n\n3\nSequence Alignment\nHW 03, Project Proposal\n\n\n\n4\nData Wrangling\nHW 04\n\n\n\n5\nDimensionality Reduction\nExploratory Analyses\n\n\n\n6\nVisualization\nFigure Drafts\n\n\n\n7\nHypothesis Testing\nResults\n\n\n\n8\nPeer Review\nPeer Review\n\n\n\n9\nMethodological Comparative Analysis\nResponse to Reviewers\n\n\n\n10\nProject Presentations\nFinal Project & Presentation",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html",
+    "href": "02-Main/resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Rosalind Probolems",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#rosalind-probolems",
+    "href": "02-Main/resources.html#rosalind-probolems",
+    "title": "Resources",
+    "section": "",
+    "text": "Course enrollment link:https://rosalind.info/classes/enroll/750c73565c/",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#google-colab-pro",
+    "href": "02-Main/resources.html#google-colab-pro",
+    "title": "Resources",
+    "section": "Google Colab Pro",
+    "text": "Google Colab Pro\n\nPro account sign-up: https://colab.research.google.com/signup\nUse your Union email",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
@@ -64,20 +94,64 @@
     "href": "02-Main/grading.html",
     "title": "Grading",
     "section": "",
-    "text": "Grading Scheme\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nFinal Exam\nX%\nwritten\n\n\nMidterm Exam\nX%\nwritten\n\n\nProject\nX%\nwritten\n\n\nEngagement\nX%\nwritten\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59",
+    "text": "Grading Scheme\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nFinal Project\n25%\nwritten\n\n\nFinal Presentation\n25%\n\n\n\nProblem Sets\n25%\nwritten\n\n\nPeer Review\n25%\nwritten\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Grading</span>"
     ]
   },
   {
-    "objectID": "03-Back/colophon.html",
-    "href": "03-Back/colophon.html",
-    "title": "Colophon",
+    "objectID": "03-Assignments/hw01.html",
+    "href": "03-Assignments/hw01.html",
+    "title": "HW01",
     "section": "",
-    "text": "Composed in ET Book, a free and open-sopurce typeface designed by Dmitry Krasny, Bonnie Scranton, and Edward Tufte; and Gyre Heros, a fontbased on the URW Nimbus Sans L kindly released by URW++ Design and Development Inc. under GFL. Based on Tufte-Latex and Quarto.",
+    "text": "CSC 483: Homework 1, Due Jan 8, 2026\nRosalind problems 1 - 6: A review of Python.",
     "crumbs": [
-      "About",
-      "Colophon"
+      "Assignments",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW01</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/hw01.html#setup-colab-notebook",
+    "href": "03-Assignments/hw01.html#setup-colab-notebook",
+    "title": "HW01",
+    "section": "Setup Colab Notebook",
+    "text": "Setup Colab Notebook\n\nMake a copy of the Colab Notebook template:\n\nhttps://colab.research.google.com/drive/1PdhQTAneY_lPhAQkBxZcACU0gJoOp6oP?usp=sharing\n\nRename it with your own name: [Name]_CSC483_template.ipynb\nFill your name into the header. For now, leave the date and assignment name generic.\n\n\nName: [Name]\nDate: [Date]\nAssignment: [Assignment Name]\n\nNote that I have changed the settings to disable the default AI features. Confirm the following settings and do not reactive any of these features:\n\nin Edit -&gt; Notebook Settings , select the box to ‘Hide Generative AI features’\nin Tools -&gt; Settings -&gt; Editor, unselect ‘Show context-powered code completions’\nin Tools -&gt; Settings -&gt; AI Assistance, unselect ‘Show AI-powered inline completions’\nin Tools -&gt; Settings -&gt; AI Assistance, unselect ‘Consented to use generative AI features’\n\n\nMove this notebook to your class folder on Google Drive, in a well-organized directory.\n\nThis notebook will serve as a template from which you make duplications, rename them and edit them for all assignments in this class.\n\nShare it with me, doingg@union.edu\nNow make your first duplication of your template, save it to your drive, and rename it:\n\nFile -&gt; Save a copy in Drive\n\nRename your duplicated copy:\n\n[Name]_CSC483_HW01.ipynb\n\nYou will also share your HW01 notebook with me as your submission.",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW01</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/hw01.html#rosalind-problems",
+    "href": "03-Assignments/hw01.html#rosalind-problems",
+    "title": "HW01",
+    "section": "Rosalind Problems",
+    "text": "Rosalind Problems\nEnroll in our class on Rosalind: https://rosalind.info/classes/enroll/750c73565c/\nBe sure to use your Union email for your account.",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW01</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/hw01.html#format",
+    "href": "03-Assignments/hw01.html#format",
+    "title": "HW01",
+    "section": "Format",
+    "text": "Format\nFor each Rosalind problem, use chunks of Markdown text and python code to work out your solution.\nEach Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW01</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/hw01.html#note-on-readingwriting-files",
+    "href": "03-Assignments/hw01.html#note-on-readingwriting-files",
+    "title": "HW01",
+    "section": "Note on reading/writing files",
+    "text": "Note on reading/writing files\nFor some problems you may need ro read or write files. In these cases, mount your google drive and upload/save files there.\n\nfrom google.colab import drive\ndrive.mount('/content/drive/')\n\nTo check which directory your notebook is mounted to, you can use bash within python chuncks\n\n!ls\n\nYou can then use the appropriate realtive paths to your files of interest. For example, I used:\n\nf = open(\"drive/MyDrive/Teaching/CSC483-W26/test_text.txt\",\"r\")",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW01</span>"
     ]
   }
 ]

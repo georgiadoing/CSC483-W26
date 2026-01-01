@@ -1,0 +1,13 @@
+---
+title: Resources
+---
+
+## Rosalind Probolems
+
+* Course enrollment link:<https://rosalind.info/classes/enroll/750c73565c/>
+
+## Google Colab Pro
+
+* Pro account sign-up: <https://colab.research.google.com/signup>
+* Use your Union email
+

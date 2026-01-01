@@ -1,0 +1,41 @@
+---
+title: Grading
+---
+
+
+
+
+:::column
+
+| Course Element | Grade Point Contribution       | Notes |
+|-----------|:-------------------------|:-------------------|
+| Final  Project     | 25%     | written |
+| Final Presentation | 25%
+| Problem Sets     | 25%     | written |
+| Peer Review     | 25%     | written |
+|      |      |  |
+|   total   |  100%    |  |
+
+: Grading Scheme
+
+
+::: column
+
+| Letter Grade | Percent range       | 
+|:-|:- |
+| A     |  93 - 100  | 
+| A-    |  90 - 92    |
+| B+   |  87 - 89    |
+| B     |  83 - 86    |
+| B-   |  80 - 82    |
+| C+   |  77 - 79    |
+| C    |  73 - 76    |
+| C-    |  70 - 72    |
+| D    |  60 - 69    |
+| F   |  0 - 59    |
+
+: Letter Grade Scale
+
+
+:::
+

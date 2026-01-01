@@ -1,0 +1,32 @@
+project:
+    type: tufte
+book:
+  open-graph: true
+  site-url: https://georgiadoing.github.io/CSC483-W26/
+  repo-url: https://github.com/georgiadoing/CSC483-W26/
+  repo-actions: [edit, issue]
+  title: |
+    Course: CSC:483 Special Topics - Applied Biological Data Science\
+    Documentation
+  title-short: CSC483 # title-short is used in the pdf head
+  output-file: CSC483Notes # outputs: docs/TufteStyledBook.pdf
+  author: doingg@union.edu
+  publisher: self
+  date-format: MMMM, YYYY
+  license: "CC BY"
+  chapters:
+    - index.qmd
+    - 02-Main/schedule.qmd
+    - 02-Main/resources.qmd
+    - 02-Main/syllabus.qmd
+    - 02-Main/grading.qmd
+    - part: Assignments
+      chapters:
+        - 03-Assignments/hw01.qmd
+    - part: Notes
+      chapters:
+        - 04-Notes/week1.qmd
+    - part: about.qmd
+      chapters:
+        - 03-Back/references.qmd
+bibliography: references.bib

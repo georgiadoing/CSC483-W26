@@ -1,0 +1,113 @@
+---
+title: HW01
+---
+
+
+# CSC 483: Homework 1, Due Jan 8, 2026
+
+Rosalind problems 1 - 6: A review of Python. 
+
+
+## Setup Colab Notebook
+
+1. Make a copy of the Colab Notebook template: 
+
+
+<https://colab.research.google.com/drive/1PdhQTAneY_lPhAQkBxZcACU0gJoOp6oP?usp=sharing>
+
+2. Rename it with your own name: [Name]_CSC483_template.ipynb
+
+3. Fill your name into the header. For now, leave the date and assignment name generic.
+
+
+---
+
+
+Name: [Name]
+
+Date: [Date]
+
+Assignment: [Assignment Name]
+
+---
+
+
+Note that I have  changed the settings to disable the default AI features. Confirm the following settings and do not reactive any of these features:
+
+* in Edit -> Notebook Settings , select the box to 'Hide Generative AI features'
+* in Tools -> Settings -> Editor, unselect 'Show context-powered code completions'
+* in Tools -> Settings -> AI Assistance, unselect 'Show AI-powered inline completions'
+* in Tools -> Settings -> AI Assistance, unselect 'Consented to use generative AI features'
+
+4. Move this notebook to your class folder on Google Drive, in a well-organized directory.
+
+This notebook will serve as a template from which you make duplications, rename them and edit them for all assignments in this class.
+
+5. Share it with me, doingg@union.edu
+
+6. Now make your first duplication of your template, save it to your drive, and rename it:
+
+File -> Save a copy in Drive
+
+7. Rename your duplicated copy:
+
+[Name]_CSC483_HW01.ipynb
+
+8. You will also share your HW01 notebook with me as your submission.
+
+## Rosalind Problems
+
+Enroll in our class on Rosalind: <https://rosalind.info/classes/enroll/750c73565c/>
+
+Be sure to use your Union email for your account.
+
+## Format
+
+For each Rosalind problem, use chunks of Markdown text and python code to work out your solution.
+
+Each Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.
+
+## Note on reading/writing files
+
+For some problems you may need ro read or write files. In these cases, mount your google drive and upload/save files there.
+
+
+```{python}
+#| eval: false
+from google.colab import drive
+drive.mount('/content/drive/')
+```
+
+To check which directory your notebook is mounted to, you can use bash within python chuncks
+
+```{python}
+#| eval: false
+!ls
+```
+
+You can then use the appropriate realtive paths to your files of interest. For example, I used:
+
+
+```{python}
+#| eval: false
+f = open("drive/MyDrive/Teaching/CSC483-W26/test_text.txt","r")
+```
+
+# Reflection
+
+End with a Markdown chunk reflecting on how this assignment went for you:
+
+1. Were you able to write correct solutions for all the problems?
+	+ If not, were you able to attempt all the problems?
+2. What was the most difficult problem for you? 
+	+ What made it more difficult than the others?
+3. Would you be comfortable doing a similar assignment as an in-class assessment?
+	+ Would you be able to write out your code by hand/memory?
+	+ What would you practice in preparation for such a quiz or exam?
+4. Did you use any resources beyond your memory to complete this assignment (e.g. Python documentation, notes from past classes, CS Heldesk, etc.)?
+	+ If so, which? 
+	+ How did you access them?
+
+Note that you do not need to address every sub-question in your response, but should be prepared to discuss your answers with your peers and me.
+
+Please write in full sentences and, as always, do not use generative AI to synthesize or summarize your ideas. You will not be graded on spelling or grammer, it is more important that your thhoughts and words are authentically your own.

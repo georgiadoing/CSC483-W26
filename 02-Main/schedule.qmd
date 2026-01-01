@@ -1,0 +1,24 @@
+---
+title: Schedule
+---
+
+Weekly Schedule
+
+## Schedule
+
+| W | TOPIC                                   | Due                              | Notes|
+| ---- | --------------------------------------- | ---------------------- |----------:|
+| 1    | Scope of Biological Data          | HW 01              | 
+| 2    | Arc of Analyses  | HW 02                             |
+| 3    | Sequence Alignment                      | HW 03, Project Proposal                            |
+| 4    | Data Wrangling                  | HW 04   | 
+| 5    | Dimensionality Reduction                      |  Exploratory Analyses           |
+| 6    | Visualization                          | Figure Drafts     |
+| 7    | Hypothesis Testing                            |  Results        |
+| 8    | Peer Review                  |  Peer Review  | 
+| 9    | Methodological Comparative Analysis                            |  Response to Reviewers          |
+| 10   | Project Presentations           | Final Project & Presentation  |
+|      |                                         |                                  |
+
+
+

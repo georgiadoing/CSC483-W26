@@ -80,6 +80,16 @@
     ]
   },
   {
+    "objectID": "02-Main/resources.html#late-token-form",
+    "href": "02-Main/resources.html#late-token-form",
+    "title": "Resources",
+    "section": "Late Token Form",
+    "text": "Late Token Form\n\nThese are for project-related deadlines, not Rosalind problems\nThese can be used for any reason\nThese do not apply to your final deadline\nForm link: https://forms.gle/ZcEss9oNayecL8zr7",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
     "objectID": "02-Main/syllabus.html",
     "href": "02-Main/syllabus.html",
     "title": "Syllabus",
@@ -100,58 +110,58 @@
     ]
   },
   {
-    "objectID": "03-Assignments/hw01.html",
-    "href": "03-Assignments/hw01.html",
-    "title": "HW01",
+    "objectID": "03-Assignments/csc483_hw01.html",
+    "href": "03-Assignments/csc483_hw01.html",
+    "title": "CSC483 HW01",
     "section": "",
     "text": "CSC 483: Homework 1, Due Jan 8, 2026\nRosalind problems 1 - 6: A review of Python.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW01</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC483 HW01</span>"
     ]
   },
   {
-    "objectID": "03-Assignments/hw01.html#setup-colab-notebook",
-    "href": "03-Assignments/hw01.html#setup-colab-notebook",
-    "title": "HW01",
-    "section": "Setup Colab Notebook",
-    "text": "Setup Colab Notebook\n\nMake a copy of the Colab Notebook template:\n\nhttps://colab.research.google.com/drive/1PdhQTAneY_lPhAQkBxZcACU0gJoOp6oP?usp=sharing\n\nRename it with your own name: [Name]_CSC483_template.ipynb\nFill your name into the header. For now, leave the date and assignment name generic.\n\n\nName: [Name]\nDate: [Date]\nAssignment: [Assignment Name]\n\nNote that I have changed the settings to disable the default AI features. Confirm the following settings and do not reactive any of these features:\n\nin Edit -&gt; Notebook Settings , select the box to ‘Hide Generative AI features’\nin Tools -&gt; Settings -&gt; Editor, unselect ‘Show context-powered code completions’\nin Tools -&gt; Settings -&gt; AI Assistance, unselect ‘Show AI-powered inline completions’\nin Tools -&gt; Settings -&gt; AI Assistance, unselect ‘Consented to use generative AI features’\n\n\nMove this notebook to your class folder on Google Drive, in a well-organized directory.\n\nThis notebook will serve as a template from which you make duplications, rename them and edit them for all assignments in this class.\n\nShare it with me, doingg@union.edu\nNow make your first duplication of your template, save it to your drive, and rename it:\n\nFile -&gt; Save a copy in Drive\n\nRename your duplicated copy:\n\n[Name]_CSC483_HW01.ipynb\n\nYou will also share your HW01 notebook with me as your submission.",
+    "objectID": "03-Assignments/csc483_hw01.html#setup-colab-notebook-1-pts",
+    "href": "03-Assignments/csc483_hw01.html#setup-colab-notebook-1-pts",
+    "title": "CSC483 HW01",
+    "section": "1. Setup Colab Notebook (1 pts)",
+    "text": "1. Setup Colab Notebook (1 pts)\n\nMake a copy of the Colab Notebook template:\n\nhttps://colab.research.google.com/drive/1PdhQTAneY_lPhAQkBxZcACU0gJoOp6oP?usp=sharing\n\nRename it with your own name: [Name]_CSC483_template.ipynb\nFill your name into the header. For now, leave the date and assignment name generic.\nMove this notebook to your class folder on Google Drive, in a well-organized directory.\nShare it with me, doingg@union.edu\nNow make a copy of your edited template, save it to your drive, and rename it: [Name]_CSC483_HW01.ipynb\nYou will also share your HW01 notebook with me as your submission.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW01</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC483 HW01</span>"
     ]
   },
   {
-    "objectID": "03-Assignments/hw01.html#rosalind-problems",
-    "href": "03-Assignments/hw01.html#rosalind-problems",
-    "title": "HW01",
-    "section": "Rosalind Problems",
-    "text": "Rosalind Problems\nEnroll in our class on Rosalind: https://rosalind.info/classes/enroll/750c73565c/\nBe sure to use your Union email for your account.",
+    "objectID": "03-Assignments/csc483_hw01.html#rosalind-problems-1-pts",
+    "href": "03-Assignments/csc483_hw01.html#rosalind-problems-1-pts",
+    "title": "CSC483 HW01",
+    "section": "2. Rosalind Problems (1 pts)",
+    "text": "2. Rosalind Problems (1 pts)\nEnroll in our class on Rosalind: https://rosalind.info/classes/enroll/750c73565c/\nBe sure to use your Union email for your account.\nYou should see the first assignment (problems 1-6).\n\nFormat\nFor each Rosalind problem, use chunks of Markdown text and python code to work out your solution.\nEach Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.\n\n\nNote on reading/writing files\nFor some problems you may need ro read or write files. In these cases, mount your google drive and upload/save files there.\n\nfrom google.colab import drive\ndrive.mount('/content/drive/')\n\nTo check which directory your notebook is mounted to, you can use bash within python chuncks\n\n!ls\n\nYou can then use the appropriate realtive paths to your files of interest. For example, I used:\n\nf = open(\"drive/MyDrive/Teaching/CSC483-W26/test_text.txt\",\"r\")",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW01</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC483 HW01</span>"
     ]
   },
   {
-    "objectID": "03-Assignments/hw01.html#format",
-    "href": "03-Assignments/hw01.html#format",
-    "title": "HW01",
-    "section": "Format",
-    "text": "Format\nFor each Rosalind problem, use chunks of Markdown text and python code to work out your solution.\nEach Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.",
+    "objectID": "03-Assignments/csc483_hw01.html#setup-check-in-notebook-1-pts",
+    "href": "03-Assignments/csc483_hw01.html#setup-check-in-notebook-1-pts",
+    "title": "CSC483 HW01",
+    "section": "3. Setup Check-in Notebook (1 pts)",
+    "text": "3. Setup Check-in Notebook (1 pts)\n\nMake a copy of the Check-in Notebook template:\n\nhttps://colab.research.google.com/drive/1e4a0xjIn9oUVCwZNcZrkv3lM4iyDfSxK?usp=sharing\n\nRename it with your own name: [Name]_CSC483_check-in_template.ipynb\nFollow the instructions in the Colab Notebook.\nShare your notebook with me (doingg@union.edu) as your submission.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW01</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC483 HW01</span>"
     ]
   },
   {
-    "objectID": "03-Assignments/hw01.html#note-on-readingwriting-files",
-    "href": "03-Assignments/hw01.html#note-on-readingwriting-files",
-    "title": "HW01",
-    "section": "Note on reading/writing files",
-    "text": "Note on reading/writing files\nFor some problems you may need ro read or write files. In these cases, mount your google drive and upload/save files there.\n\nfrom google.colab import drive\ndrive.mount('/content/drive/')\n\nTo check which directory your notebook is mounted to, you can use bash within python chuncks\n\n!ls\n\nYou can then use the appropriate realtive paths to your files of interest. For example, I used:\n\nf = open(\"drive/MyDrive/Teaching/CSC483-W26/test_text.txt\",\"r\")",
+    "objectID": "03-Assignments/csc483_hw01.html#office-hours-1-pts",
+    "href": "03-Assignments/csc483_hw01.html#office-hours-1-pts",
+    "title": "CSC483 HW01",
+    "section": "4. Office Hours (1 pts)",
+    "text": "4. Office Hours (1 pts)\n\nAfter completing your check-in notebook, come to office hours sometime in the next 2 weeks.\n\n\nLocation: ISEC 070\nStudent/Office Hours:\n\nWednesday 2:00 pm - 3:30 pm\nThursday 4:00 pm - 5:30 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom\n\nBe careful not to procrastinate, 2 classes worth of students share the office hours.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW01</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC483 HW01</span>"
     ]
   }
 ]

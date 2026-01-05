@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Grading – Course: CSC:483 Special Topics - Applied Biological Data Science\
+<title>CSC483 HW01 – Course: CSC:483 Special Topics - Applied Biological Data Science\
 Documentation</title>
 <style>
 code{white-space: pre-wrap;}
@@ -21,6 +21,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -31,8 +66,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../03-Assignments/csc483_hw01.html" rel="next">
-<link href="../02-Main/syllabus.html" rel="prev">
+<link href="../04-Notes/week1.html" rel="next">
+<link href="../02-Main/grading.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -73,8 +108,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../site_libs/quarto-contrib/quarto-project/fredguth/tufte/styles.css">
-<meta property="og:title" content="Grading – Course: CSC:483 Special Topics - Applied Biological Data Science
+<meta property="og:title" content="CSC483 HW01 – Course: CSC:483 Special Topics - Applied Biological Data Science
 Documentation">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Course: CSC:483 Special Topics - Applied Biological Data Science\
 Documentation
 ">
@@ -89,7 +125,7 @@ Documentation
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../02-Main/grading.html"><span class="chapter-title">Grading</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../03-Assignments/csc483_hw01.html">Assignments</a></li><li class="breadcrumb-item"><a href="../03-Assignments/csc483_hw01.html"><span class="chapter-title">CSC483 HW01</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -140,7 +176,7 @@ Documentation</a>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../02-Main/grading.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Grading</span></a>
+  <a href="../02-Main/grading.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Grading</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -154,7 +190,7 @@ Documentation</a>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../03-Assignments/csc483_hw01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW01</span></a>
+  <a href="../03-Assignments/csc483_hw01.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">CSC483 HW01</span></a>
   </div>
 </li>
       </ul>
@@ -194,14 +230,30 @@ Documentation</a>
   </li>
     </ul>
     </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#csc-483-homework-1-due-jan-8-2026" id="toc-csc-483-homework-1-due-jan-8-2026" class="nav-link active" data-scroll-target="#csc-483-homework-1-due-jan-8-2026">CSC 483: Homework 1, Due Jan 8, 2026</a>
+  <ul class="collapse">
+  <li><a href="#setup-colab-notebook-1-pts" id="toc-setup-colab-notebook-1-pts" class="nav-link" data-scroll-target="#setup-colab-notebook-1-pts">1. Setup Colab Notebook (1 pts)</a></li>
+  <li><a href="#rosalind-problems-1-pts" id="toc-rosalind-problems-1-pts" class="nav-link" data-scroll-target="#rosalind-problems-1-pts">2. Rosalind Problems (1 pts)</a>
+  <ul class="collapse">
+  <li><a href="#format" id="toc-format" class="nav-link" data-scroll-target="#format">Format</a></li>
+  <li><a href="#note-on-readingwriting-files" id="toc-note-on-readingwriting-files" class="nav-link" data-scroll-target="#note-on-readingwriting-files">Note on reading/writing files</a></li>
+  </ul></li>
+  <li><a href="#setup-check-in-notebook-1-pts" id="toc-setup-check-in-notebook-1-pts" class="nav-link" data-scroll-target="#setup-check-in-notebook-1-pts">3. Setup Check-in Notebook (1 pts)</a></li>
+  <li><a href="#office-hours-1-pts" id="toc-office-hours-1-pts" class="nav-link" data-scroll-target="#office-hours-1-pts">4. Office Hours (1 pts)</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/georgiadoing/CSC483-W26/edit/main/03-Assignments/csc483_hw01.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/georgiadoing/CSC483-W26/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7"><span class="chapter-title">Grading</span></h1></header>
+<main class="content column-page-right" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../03-Assignments/csc483_hw01.html">Assignments</a></li><li class="breadcrumb-item"><a href="../03-Assignments/csc483_hw01.html"><span class="chapter-title">CSC483 HW01</span></a></li></ol></nav><h1 class="title display-7"><span class="chapter-title">CSC483 HW01</span></h1></header>
 
 <header id="title-block-header">
 
@@ -209,105 +261,84 @@ Documentation</a>
 </header>
 
 
-<div class="column">
-<table class="caption-top table">
-<caption>Grading Scheme</caption>
-<thead>
-<tr class="header">
-<th>Course Element</th>
-<th style="text-align: left;">Grade Point Contribution</th>
-<th style="text-align: left;">Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Final Project</td>
-<td style="text-align: left;">25%</td>
-<td style="text-align: left;">written</td>
-</tr>
-<tr class="even">
-<td>Final Presentation</td>
-<td style="text-align: left;">25%</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td>Problem Sets</td>
-<td style="text-align: left;">25%</td>
-<td style="text-align: left;">written</td>
-</tr>
-<tr class="even">
-<td>Peer Review</td>
-<td style="text-align: left;">25%</td>
-<td style="text-align: left;">written</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td>total</td>
-<td style="text-align: left;">100%</td>
-<td style="text-align: left;"></td>
-</tr>
-</tbody>
-</table>
-<div class="column">
-<table class="caption-top table">
-<caption>Letter Grade Scale</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Letter Grade</th>
-<th style="text-align: left;">Percent range</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">A</td>
-<td style="text-align: left;">93 - 100</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">A-</td>
-<td style="text-align: left;">90 - 92</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">B+</td>
-<td style="text-align: left;">87 - 89</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">B</td>
-<td style="text-align: left;">83 - 86</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">B-</td>
-<td style="text-align: left;">80 - 82</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">C+</td>
-<td style="text-align: left;">77 - 79</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">C</td>
-<td style="text-align: left;">73 - 76</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">C-</td>
-<td style="text-align: left;">70 - 72</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">D</td>
-<td style="text-align: left;">60 - 69</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">F</td>
-<td style="text-align: left;">0 - 59</td>
-</tr>
-</tbody>
-</table>
+<section id="csc-483-homework-1-due-jan-8-2026" class="level1">
+<h1>CSC 483: Homework 1, Due Jan 8, 2026</h1>
+<p>Rosalind problems 1 - 6: A review of Python.</p>
+<section id="setup-colab-notebook-1-pts" class="level2">
+<h2 class="anchored" data-anchor-id="setup-colab-notebook-1-pts">1. Setup Colab Notebook (1 pts)</h2>
+<ol type="1">
+<li>Make a copy of the Colab Notebook template:</li>
+</ol>
+<p><a href="https://colab.research.google.com/drive/1PdhQTAneY_lPhAQkBxZcACU0gJoOp6oP?usp=sharing" class="uri">https://colab.research.google.com/drive/1PdhQTAneY_lPhAQkBxZcACU0gJoOp6oP?usp=sharing</a></p>
+<ol start="2" type="1">
+<li><p>Rename it with your own name: [Name]_CSC483_template.ipynb</p></li>
+<li><p>Fill your name into the header. For now, leave the date and assignment name generic.</p></li>
+<li><p>Move this notebook to your class folder on Google Drive, in a well-organized directory.</p></li>
+<li><p>Share it with me, doingg@union.edu</p></li>
+<li><p>Now make a copy of your edited template, save it to your drive, and rename it: [Name]_CSC483_HW01.ipynb</p></li>
+<li><p>You will also share your HW01 notebook with me as your submission.</p></li>
+</ol>
+</section>
+<section id="rosalind-problems-1-pts" class="level2">
+<h2 class="anchored" data-anchor-id="rosalind-problems-1-pts">2. Rosalind Problems (1 pts)</h2>
+<p>Enroll in our class on Rosalind: <a href="https://rosalind.info/classes/enroll/750c73565c/" class="uri">https://rosalind.info/classes/enroll/750c73565c/</a></p>
+<p>Be sure to use your Union email for your account.</p>
+<p>You should see the first assignment (problems 1-6).</p>
+<section id="format" class="level3">
+<h3 class="anchored" data-anchor-id="format">Format</h3>
+<p>For each Rosalind problem, use chunks of Markdown text and python code to work out your solution.</p>
+<p>Each Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.</p>
+</section>
+<section id="note-on-readingwriting-files" class="level3">
+<h3 class="anchored" data-anchor-id="note-on-readingwriting-files">Note on reading/writing files</h3>
+<p>For some problems you may need ro read or write files. In these cases, mount your google drive and upload/save files there.</p>
+<div id="c47ba37a" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">'/content/drive/'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>To check which directory your notebook is mounted to, you can use bash within python chuncks</p>
+<div id="d299743a" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>ls</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>You can then use the appropriate realtive paths to your files of interest. For example, I used:</p>
+<div id="6eb1b3e4" class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> <span class="bu">open</span>(<span class="st">"drive/MyDrive/Teaching/CSC483-W26/test_text.txt"</span>,<span class="st">"r"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="setup-check-in-notebook-1-pts" class="level2">
+<h2 class="anchored" data-anchor-id="setup-check-in-notebook-1-pts">3. Setup Check-in Notebook (1 pts)</h2>
+<ol type="1">
+<li>Make a copy of the Check-in Notebook template:</li>
+</ol>
+<p><a href="https://colab.research.google.com/drive/1e4a0xjIn9oUVCwZNcZrkv3lM4iyDfSxK?usp=sharing" class="uri">https://colab.research.google.com/drive/1e4a0xjIn9oUVCwZNcZrkv3lM4iyDfSxK?usp=sharing</a></p>
+<ol start="2" type="1">
+<li><p>Rename it with your own name: [Name]_CSC483_check-in_template.ipynb</p></li>
+<li><p>Follow the instructions in the Colab Notebook.</p></li>
+<li><p>Share your notebook with me (doingg@union.edu) as your submission.</p></li>
+</ol>
+</section>
+<section id="office-hours-1-pts" class="level2">
+<h2 class="anchored" data-anchor-id="office-hours-1-pts">4. Office Hours (1 pts)</h2>
+<ol type="1">
+<li>After completing your check-in notebook, come to office hours sometime in the next 2 weeks.</li>
+</ol>
+<ul>
+<li>Location: ISEC 070</li>
+<li>Student/Office Hours:
+<ul>
+<li>Wednesday 2:00 pm - 3:30 pm</li>
+<li>Thursday 4:00 pm - 5:30 pm</li>
+<li>subject to change, check course website for most up-to-date schedule</li>
+<li>drop-in or schedule a 15 minute slot: <a href="https://calendar.app.google/8bus6pfDvyphR9ar5" class="uri">https://calendar.app.google/8bus6pfDvyphR9ar5</a></li>
+<li>by appointment for another time or over zoom</li>
+</ul></li>
+<li>Be careful not to procrastinate, 2 classes worth of students share the office hours.</li>
+</ul>
 
 
-</div>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -711,13 +742,13 @@ Documentation</a>
   </script>
 <nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
-      <a href="../02-Main/syllabus.html" class="pagination-link" aria-label="Syllabus">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Syllabus</span></span>
+      <a href="../02-Main/grading.html" class="pagination-link" aria-label="Grading">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Grading</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../03-Assignments/csc483_hw01.html" class="pagination-link" aria-label="CSC483 HW01">
-        <span class="nav-page-text"><span class="chapter-title">CSC483 HW01</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../04-Notes/week1.html" class="pagination-link" aria-label="Week 1">
+        <span class="nav-page-text"><span class="chapter-title">Week 1</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -726,4 +757,4 @@ Documentation</a>
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/georgiadoing/CSC483-W26/edit/main/02-Main/grading.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/georgiadoing/CSC483-W26/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/georgiadoing/CSC483-W26/edit/main/03-Assignments/csc483_hw01.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/georgiadoing/CSC483-W26/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

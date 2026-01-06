@@ -90,6 +90,16 @@
     ]
   },
   {
+    "objectID": "02-Main/resources.html#python-style-guide",
+    "href": "02-Main/resources.html#python-style-guide",
+    "title": "Resources",
+    "section": "Python Style Guide",
+    "text": "Python Style Guide\n\nPEP 8\nshould be used in all code cells of Colab notebooks\nLink: https://peps.python.org/pep-0008/",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
     "objectID": "02-Main/syllabus.html",
     "href": "02-Main/syllabus.html",
     "title": "Syllabus",
@@ -114,7 +124,7 @@
     "href": "03-Assignments/csc483_hw01.html",
     "title": "CSC483 HW01",
     "section": "",
-    "text": "CSC 483: Homework 1, Due Jan 8, 2026\nRosalind problems 1 - 6: A review of Python.",
+    "text": "CSC 483: Homework 1, Due Jan 13, 2026\nRosalind problems 1 - 6: A review of Python.",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC483 HW01</span>"

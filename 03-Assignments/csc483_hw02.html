@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>References – Course: CSC:483 Special Topics - Applied Biological Data Science\
+<title>CSC483 HW01 – Course: CSC:483 Special Topics - Applied Biological Data Science\
 Documentation</title>
 <style>
 code{white-space: pre-wrap;}
@@ -21,26 +21,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -50,7 +31,8 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../04-Notes/week1.html" rel="prev">
+<link href="../04-Notes/week1.html" rel="next">
+<link href="../03-Assignments/csc483_hw01.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -91,7 +73,7 @@ div.csl-indent {
 
 
 <link rel="stylesheet" href="../site_libs/quarto-contrib/quarto-project/fredguth/tufte/styles.css">
-<meta property="og:title" content="References – Course: CSC:483 Special Topics - Applied Biological Data Science
+<meta property="og:title" content="CSC483 HW01 – Course: CSC:483 Special Topics - Applied Biological Data Science
 Documentation">
 <meta property="og:site_name" content="Course: CSC:483 Special Topics - Applied Biological Data Science\
 Documentation
@@ -107,7 +89,7 @@ Documentation
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../03-Back/references.html">about.qmd</a></li><li class="breadcrumb-item"><a href="../03-Back/references.html">References</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../03-Assignments/csc483_hw01.html">Assignments</a></li><li class="breadcrumb-item"><a href="../03-Assignments/csc483_hw02.html"><span class="chapter-title">CSC483 HW01</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -177,7 +159,7 @@ Documentation</a>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../03-Assignments/csc483_hw02.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW01</span></a>
+  <a href="../03-Assignments/csc483_hw02.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">CSC483 HW01</span></a>
   </div>
 </li>
       </ul>
@@ -209,7 +191,7 @@ Documentation</a>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../03-Back/references.html" class="sidebar-item-text sidebar-link active">
+  <a href="../03-Back/references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
@@ -217,13 +199,25 @@ Documentation</a>
   </li>
     </ul>
     </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#csc-483-homework-2-due-jan-20-2026-before-class" id="toc-csc-483-homework-2-due-jan-20-2026-before-class" class="nav-link active" data-scroll-target="#csc-483-homework-2-due-jan-20-2026-before-class">CSC 483: Homework 2, Due Jan 20, 2026, before class</a>
+  <ul class="collapse">
+  <li><a href="#rosalind-problems-15---21-working-with-sequence-data.-2-pts" id="toc-rosalind-problems-15---21-working-with-sequence-data.-2-pts" class="nav-link" data-scroll-target="#rosalind-problems-15---21-working-with-sequence-data.-2-pts">1. Rosalind problems 15 - 21: working with sequence data. (2 pts)</a></li>
+  <li><a href="#finish-activity-plotting-metadata-1-pts" id="toc-finish-activity-plotting-metadata-1-pts" class="nav-link" data-scroll-target="#finish-activity-plotting-metadata-1-pts">Finish activity: plotting metadata (1 pts)</a></li>
+  <li><a href="#update-check-in-notebook-1-pts" id="toc-update-check-in-notebook-1-pts" class="nav-link" data-scroll-target="#update-check-in-notebook-1-pts">3. Update Check-in Notebook (1 pts)</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/georgiadoing/CSC483-W26/edit/main/03-Assignments/csc483_hw02.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/georgiadoing/CSC483-W26/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../03-Back/references.html">about.qmd</a></li><li class="breadcrumb-item"><a href="../03-Back/references.html">References</a></li></ol></nav><h1 class="title display-7">References</h1></header>
+<main class="content column-page-right" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../03-Assignments/csc483_hw01.html">Assignments</a></li><li class="breadcrumb-item"><a href="../03-Assignments/csc483_hw02.html"><span class="chapter-title">CSC483 HW01</span></a></li></ol></nav><h1 class="title display-7"><span class="chapter-title">CSC483 HW01</span></h1></header>
 
 <header id="title-block-header">
 
@@ -231,11 +225,40 @@ Documentation</a>
 </header>
 
 
-<div id="refs" role="list" style="display: none">
+<section id="csc-483-homework-2-due-jan-20-2026-before-class" class="level1">
+<h1>CSC 483: Homework 2, Due Jan 20, 2026, before class</h1>
+<section id="rosalind-problems-15---21-working-with-sequence-data.-2-pts" class="level2">
+<h2 class="anchored" data-anchor-id="rosalind-problems-15---21-working-with-sequence-data.-2-pts">1. Rosalind problems 15 - 21: working with sequence data. (2 pts)</h2>
+<ol type="1">
+<li><p>Make a copy of your homework colab template, save it to your drive, and rename it: [Name]_CSC483_HW02.ipynb</p></li>
+<li><p>You will also share your HW02 notebook with me as your submission.</p></li>
+<li><p>Complete Rosalind problems 15 through 21 in the same format as you used for HW 1.</p></li>
+</ol>
+<p>For each Rosalind problem, use chunks of Markdown text and python code to work out your solution.</p>
+<p>Each Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.</p>
+</section>
+<section id="finish-activity-plotting-metadata-1-pts" class="level2">
+<h2 class="anchored" data-anchor-id="finish-activity-plotting-metadata-1-pts">Finish activity: plotting metadata (1 pts)</h2>
+<ol type="1">
+<li><p>Also in Colab, finish working with the metadata introduced in class.</p></li>
+<li><p>Make at least 3 plots analyzing or summarizing columns.</p></li>
+<li><p>Write down (in Markdown) a comparison you think would be interesting to make, why you think it would be interesting and what you hypothesize the result would look like.</p>
+<ul>
+<li>you don’t have to succeed in your comparison yet, if you’d need more tools/libraries/functions to do so</li>
+<li>it is more important that you have a reason for making the comparion and an estimate to which you could compare your results</li>
+</ul></li>
+</ol>
+</section>
+<section id="update-check-in-notebook-1-pts" class="level2">
+<h2 class="anchored" data-anchor-id="update-check-in-notebook-1-pts">3. Update Check-in Notebook (1 pts)</h2>
+<ol type="1">
+<li><p>Review your check-in notebook and scores for last week’s homework assignment</p></li>
+<li><p>Include a Markdown chunk that attests to my notes or requests a correction/update</p></li>
+</ol>
 
-</div>
 
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -639,11 +662,14 @@ Documentation</a>
   </script>
 <nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
-      <a href="../04-Notes/week1.html" class="pagination-link" aria-label="Week 1">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Week 1</span></span>
+      <a href="../03-Assignments/csc483_hw01.html" class="pagination-link" aria-label="CSC483 HW01">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">CSC483 HW01</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../04-Notes/week1.html" class="pagination-link" aria-label="Week 1">
+        <span class="nav-page-text"><span class="chapter-title">Week 1</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -651,4 +677,4 @@ Documentation</a>
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/georgiadoing/CSC483-W26/edit/main/03-Back/references.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/georgiadoing/CSC483-W26/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/georgiadoing/CSC483-W26/edit/main/03-Assignments/csc483_hw02.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/georgiadoing/CSC483-W26/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

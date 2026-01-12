@@ -177,45 +177,45 @@
   {
     "objectID": "03-Assignments/csc483_hw02.html",
     "href": "03-Assignments/csc483_hw02.html",
-    "title": "CSC483 HW01",
+    "title": "CSC483 HW02",
     "section": "",
     "text": "CSC 483: Homework 2, Due Jan 20, 2026, before class",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>CSC483 HW01</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>CSC483 HW02</span>"
     ]
   },
   {
     "objectID": "03-Assignments/csc483_hw02.html#rosalind-problems-15---21-working-with-sequence-data.-2-pts",
     "href": "03-Assignments/csc483_hw02.html#rosalind-problems-15---21-working-with-sequence-data.-2-pts",
-    "title": "CSC483 HW01",
+    "title": "CSC483 HW02",
     "section": "1. Rosalind problems 15 - 21: working with sequence data. (2 pts)",
     "text": "1. Rosalind problems 15 - 21: working with sequence data. (2 pts)\n\nMake a copy of your homework colab template, save it to your drive, and rename it: [Name]_CSC483_HW02.ipynb\nYou will also share your HW02 notebook with me as your submission.\nComplete Rosalind problems 15 through 21 in the same format as you used for HW 1.\n\nFor each Rosalind problem, use chunks of Markdown text and python code to work out your solution.\nEach Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>CSC483 HW01</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>CSC483 HW02</span>"
     ]
   },
   {
     "objectID": "03-Assignments/csc483_hw02.html#finish-activity-plotting-metadata-1-pts",
     "href": "03-Assignments/csc483_hw02.html#finish-activity-plotting-metadata-1-pts",
-    "title": "CSC483 HW01",
+    "title": "CSC483 HW02",
     "section": "Finish activity: plotting metadata (1 pts)",
     "text": "Finish activity: plotting metadata (1 pts)\n\nAlso in Colab, finish working with the metadata introduced in class.\nMake at least 3 plots analyzing or summarizing columns.\nWrite down (in Markdown) a comparison you think would be interesting to make, why you think it would be interesting and what you hypothesize the result would look like.\n\nyou don’t have to succeed in your comparison yet, if you’d need more tools/libraries/functions to do so\nit is more important that you have a reason for making the comparion and an estimate to which you could compare your results",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>CSC483 HW01</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>CSC483 HW02</span>"
     ]
   },
   {
     "objectID": "03-Assignments/csc483_hw02.html#update-check-in-notebook-1-pts",
     "href": "03-Assignments/csc483_hw02.html#update-check-in-notebook-1-pts",
-    "title": "CSC483 HW01",
+    "title": "CSC483 HW02",
     "section": "3. Update Check-in Notebook (1 pts)",
     "text": "3. Update Check-in Notebook (1 pts)\n\nReview your check-in notebook and scores for last week’s homework assignment\nInclude a Markdown chunk that attests to my notes or requests a correction/update",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>CSC483 HW01</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>CSC483 HW02</span>"
     ]
   },
   {
@@ -227,6 +227,28 @@
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 1</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/week2.html",
+    "href": "04-Notes/week2.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "E coli metadata activity",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 2</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/week2.html#e-coli-metadata-activity",
+    "href": "04-Notes/week2.html#e-coli-metadata-activity",
+    "title": "Week 2",
+    "section": "",
+    "text": "colab notebook: https://colab.research.google.com/drive/1X18-sF7Spht9ZXZlDkY2S_zvgEEf4xJG?usp=sharing\ndata: &lt; https://drive.google.com/file/d/1BB7M3eWo8zPuxmlwSKMzE_RBeYrjv1n0/view?usp=sharing&gt;",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 2</span>"
     ]
   }
 ]

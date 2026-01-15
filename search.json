@@ -186,11 +186,11 @@
     ]
   },
   {
-    "objectID": "03-Assignments/csc483_hw02.html#rosalind-problems-15---21-working-with-sequence-data.-2-pts",
-    "href": "03-Assignments/csc483_hw02.html#rosalind-problems-15---21-working-with-sequence-data.-2-pts",
+    "objectID": "03-Assignments/csc483_hw02.html#rosalind-problems-7---13-working-with-sequence-data.-2-pts",
+    "href": "03-Assignments/csc483_hw02.html#rosalind-problems-7---13-working-with-sequence-data.-2-pts",
     "title": "CSC483 HW02",
-    "section": "1. Rosalind problems 15 - 21: working with sequence data. (2 pts)",
-    "text": "1. Rosalind problems 15 - 21: working with sequence data. (2 pts)\n\nMake a copy of your homework colab template, save it to your drive, and rename it: [Name]_CSC483_HW02.ipynb\nYou will also share your HW02 notebook with me as your submission.\nComplete Rosalind problems 15 through 21 in the same format as you used for HW 1.\n\nFor each Rosalind problem, use chunks of Markdown text and python code to work out your solution.\nEach Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.",
+    "section": "1. Rosalind problems 7 - 13: working with sequence data. (2 pts)",
+    "text": "1. Rosalind problems 7 - 13: working with sequence data. (2 pts)\n\nMake a copy of your homework colab template, save it to your drive, and rename it: [Name]_CSC483_HW02.ipynb\nYou will also share your HW02 notebook with me as your submission.\nComplete Rosalind problems 15 through 21 in the same format as you used for HW 1.\n\nFor each Rosalind problem, use chunks of Markdown text and python code to work out your solution.\nEach Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>CSC483 HW02</span>"
@@ -245,7 +245,7 @@
     "href": "04-Notes/week2.html#e-coli-metadata-activity",
     "title": "Week 2",
     "section": "",
-    "text": "colab notebook: https://colab.research.google.com/drive/1X18-sF7Spht9ZXZlDkY2S_zvgEEf4xJG?usp=sharing\ndata: https://drive.google.com/file/d/1BB7M3eWo8zPuxmlwSKMzE_RBeYrjv1n0/view?usp=sharing",
+    "text": "colab notebook: https://colab.research.google.com/drive/1X18-sF7Spht9ZXZlDkY2S_zvgEEf4xJG?usp=sharing\nmetadata 1: https://drive.google.com/file/d/1BB7M3eWo8zPuxmlwSKMzE_RBeYrjv1n0/view?usp=sharing\nmetadata 2: https://drive.google.com/file/d/18_PkR_sOLsQshSM4O1n2hVOcZoxgn8E0/view?usp=sharing\nmetadata 3: https://drive.google.com/file/d/1_cJGV1gwHXzgUe7DMwHVI28nhJcma2tt/view?usp=sharing",
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 2</span>"

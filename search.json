@@ -179,7 +179,7 @@
     "href": "03-Assignments/csc483_hw02.html",
     "title": "CSC483 HW02",
     "section": "",
-    "text": "CSC 483: Homework 2, Due Jan 20, 2026, before class",
+    "text": "CSC 483: Homework 2, Due Jan 20, 2026, at 1 pm (with time for me to make copies before class)",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>CSC483 HW02</span>"
@@ -190,18 +190,18 @@
     "href": "03-Assignments/csc483_hw02.html#rosalind-problems-7---13-working-with-sequence-data.-2-pts",
     "title": "CSC483 HW02",
     "section": "1. Rosalind problems 7 - 13: working with sequence data. (2 pts)",
-    "text": "1. Rosalind problems 7 - 13: working with sequence data. (2 pts)\n\nMake a copy of your homework colab template, save it to your drive, and rename it: [Name]_CSC483_HW02.ipynb\nYou will also share your HW02 notebook with me as your submission.\nComplete Rosalind problems 15 through 21 in the same format as you used for HW 1.\n\nFor each Rosalind problem, use chunks of Markdown text and python code to work out your solution.\nEach Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.",
+    "text": "1. Rosalind problems 7 - 13: working with sequence data. (2 pts)\n\nMake a copy of your homework colab template, save it to your drive, and rename it: [Name]_CSC483_HW02.ipynb\nYou will also share your HW02 notebook with me as your submission.\nComplete Rosalind problems 7 through 13 in the same format as you used for HW 1.\n\nFor each Rosalind problem, use chunks of Markdown text and python code to work out your solution.\nEach Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>CSC483 HW02</span>"
     ]
   },
   {
-    "objectID": "03-Assignments/csc483_hw02.html#finish-activity-plotting-metadata-1-pts",
-    "href": "03-Assignments/csc483_hw02.html#finish-activity-plotting-metadata-1-pts",
+    "objectID": "03-Assignments/csc483_hw02.html#work-on-activity-plotting-metadata-1-pts",
+    "href": "03-Assignments/csc483_hw02.html#work-on-activity-plotting-metadata-1-pts",
     "title": "CSC483 HW02",
-    "section": "Finish activity: plotting metadata (1 pts)",
-    "text": "Finish activity: plotting metadata (1 pts)\n\nAlso in Colab, finish working with the metadata introduced in class.\nMake at least 3 plots analyzing or summarizing columns.\nWrite down (in Markdown) a comparison you think would be interesting to make, why you think it would be interesting and what you hypothesize the result would look like.\n\nyou don’t have to succeed in your comparison yet, if you’d need more tools/libraries/functions to do so\nit is more important that you have a reason for making the comparion and an estimate to which you could compare your results",
+    "section": "Work on activity: plotting metadata (1 pts)",
+    "text": "Work on activity: plotting metadata (1 pts)\nWe’ll have 30 mins in class on Tuesday before looking at each others plots, so spend some time working on the metadata notebook if you will need more time than that.\nYour grade point will come from being ready to present/share after the 30 mins of class time.\n\nAlso in Colab, keep working with the metadata introduced in class.\nMake at least 3 plots analyzing or summarizing columns.\nWrite down (in Markdown) a comparison you think would be interesting to make, why you think it would be interesting and what you hypothesize the result would look like.\n\nyou don’t have to succeed in your comparison yet, if you’d need more tools/libraries/functions to do so\nit is more important that you have a reason for making the comparion and an estimate to which you could compare your results",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>CSC483 HW02</span>"

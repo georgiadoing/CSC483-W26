@@ -219,6 +219,39 @@
     ]
   },
   {
+    "objectID": "03-Assignments/csc483_hw03.html",
+    "href": "03-Assignments/csc483_hw03.html",
+    "title": "CSC483 HW03",
+    "section": "",
+    "text": "CSC 483: Homework 3, Due Jan 27, 2026, at 1 pm (with time for me to make copies before class)",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>CSC483 HW03</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc483_hw03.html#rosalind-problems-14---20-sequence-alignment.-2-pts-4-pts-of-pr",
+    "href": "03-Assignments/csc483_hw03.html#rosalind-problems-14---20-sequence-alignment.-2-pts-4-pts-of-pr",
+    "title": "CSC483 HW03",
+    "section": "1. Rosalind problems 14 - 20: sequence & alignment. (2 pts + 4 pts of PR)",
+    "text": "1. Rosalind problems 14 - 20: sequence & alignment. (2 pts + 4 pts of PR)\n\nMake a copy of your homework colab template, save it to your drive, and rename it: [Name]_CSC483_HW03.ipynb\nYou will also share your HW03 notebook with me as your submission.\nComplete Rosalind problems 14 through 20 in the same format as you used for HW 1.\n\nNote that for this set, some problems direct you to use web-based programs rather than writing your own python code.\nFor each Rosalind problem, use chunks of Markdown text and python code to work out your solution.\nEach Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.\n\nIn-class peer review holds an additional 4 points in the grading scheme, so be sure to finesse your notebook for easy reading.",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>CSC483 HW03</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc483_hw03.html#update-check-in-notebook-1-pts",
+    "href": "03-Assignments/csc483_hw03.html#update-check-in-notebook-1-pts",
+    "title": "CSC483 HW03",
+    "section": "2. Update Check-in Notebook (1 pts)",
+    "text": "2. Update Check-in Notebook (1 pts)\n\nReview your check-in notebook and scores for last week’s homework assignment\nInclude a Markdown chunk that attests to my notes or requests a correction/update",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>CSC483 HW03</span>"
+    ]
+  },
+  {
     "objectID": "04-Notes/week1.html",
     "href": "04-Notes/week1.html",
     "title": "Week 1",
@@ -226,7 +259,7 @@
     "text": "Week 1 slides",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 1</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 1</span>"
     ]
   },
   {
@@ -237,7 +270,7 @@
     "text": "E coli metadata activity",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 2</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 2</span>"
     ]
   },
   {
@@ -248,7 +281,62 @@
     "text": "colab notebook: https://colab.research.google.com/drive/1X18-sF7Spht9ZXZlDkY2S_zvgEEf4xJG?usp=sharing\nmetadata 1: https://drive.google.com/file/d/1BB7M3eWo8zPuxmlwSKMzE_RBeYrjv1n0/view?usp=sharing\nmetadata 2: https://drive.google.com/file/d/18_PkR_sOLsQshSM4O1n2hVOcZoxgn8E0/view?usp=sharing\nmetadata 3: https://drive.google.com/file/d/1_cJGV1gwHXzgUe7DMwHVI28nhJcma2tt/view?usp=sharing",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 2</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 2</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/week3.html",
+    "href": "04-Notes/week3.html",
+    "title": "Week 3",
+    "section": "",
+    "text": "E coli metadata activity",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/week3.html#e-coli-metadata-activity",
+    "href": "04-Notes/week3.html#e-coli-metadata-activity",
+    "title": "Week 3",
+    "section": "",
+    "text": "colab notebook: https://colab.research.google.com/drive/1X18-sF7Spht9ZXZlDkY2S_zvgEEf4xJG?usp=sharing\nmetadata 1: https://drive.google.com/file/d/1BB7M3eWo8zPuxmlwSKMzE_RBeYrjv1n0/view?usp=sharing\nmetadata 2: https://drive.google.com/file/d/18_PkR_sOLsQshSM4O1n2hVOcZoxgn8E0/view?usp=sharing\nmetadata 3: https://drive.google.com/file/d/1_cJGV1gwHXzgUe7DMwHVI28nhJcma2tt/view?usp=sharing",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/week3.html#link-to-data-processing-reading",
+    "href": "04-Notes/week3.html#link-to-data-processing-reading",
+    "title": "Week 3",
+    "section": "Link to data processing reading",
+    "text": "Link to data processing reading\n\noriginal paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC9948711/\nreview on gene expression compendia: https://pmc.ncbi.nlm.nih.gov/articles/PMC9396250/",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/week3.html#notes-on-reading-scientific-paper",
+    "href": "04-Notes/week3.html#notes-on-reading-scientific-paper",
+    "title": "Week 3",
+    "section": "Notes on reading scientific paper",
+    "text": "Notes on reading scientific paper\n\nfrom a previous Biological Data Science course at JAX\ncolab notebok: https://drive.google.com/file/d/1V7MIeRD7Lp8a2hEwKD_qLd67Vk2mSc24/view?usp=sharing\nslides: https://drive.google.com/file/d/19nR712iTW-Rr7S7HaNKmuG2BiU-psZY7/view?usp=sharing",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/week3.html#khan-academy-on-the-central-dogma-of-meluclar-biology",
+    "href": "04-Notes/week3.html#khan-academy-on-the-central-dogma-of-meluclar-biology",
+    "title": "Week 3",
+    "section": "Khan Academy on the Central Dogma of Meluclar Biology",
+    "text": "Khan Academy on the Central Dogma of Meluclar Biology\n\nfrom AP biology course\nhttps://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/translation/a/intro-to-gene-expression-central-dogma\nchapters on gene expression, the genetic code, translation and more",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
     ]
   }
 ]

@@ -230,11 +230,11 @@
     ]
   },
   {
-    "objectID": "03-Assignments/csc483_hw03.html#rosalind-problems-14---20-sequence-alignment.-2-pts-4-pts-of-pr",
-    "href": "03-Assignments/csc483_hw03.html#rosalind-problems-14---20-sequence-alignment.-2-pts-4-pts-of-pr",
+    "objectID": "03-Assignments/csc483_hw03.html#rosalind-problems-14---20-sequence-alignment.-3-pts-4-pts-of-pr",
+    "href": "03-Assignments/csc483_hw03.html#rosalind-problems-14---20-sequence-alignment.-3-pts-4-pts-of-pr",
     "title": "CSC483 HW03",
-    "section": "1. Rosalind problems 14 - 20: sequence & alignment. (2 pts + 4 pts of PR)",
-    "text": "1. Rosalind problems 14 - 20: sequence & alignment. (2 pts + 4 pts of PR)\n\nMake a copy of your homework colab template, save it to your drive, and rename it: [Name]_CSC483_HW03.ipynb\nYou will also share your HW03 notebook with me as your submission.\nComplete Rosalind problems 14 through 20 in the same format as you used for HW 1.\n\nNote that for this set, some problems direct you to use web-based programs rather than writing your own python code.\nFor each Rosalind problem, use chunks of Markdown text and python code to work out your solution.\nEach Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.\n\nIn-class peer review holds an additional 4 points in the grading scheme, so be sure to finesse your notebook for easy reading.",
+    "section": "1. Rosalind problems 14 - 20: sequence & alignment. (3 pts + 4 pts of PR)",
+    "text": "1. Rosalind problems 14 - 20: sequence & alignment. (3 pts + 4 pts of PR)\n\nMake a copy of your homework colab template, save it to your drive, and rename it: [Name]_CSC483_HW03.ipynb\nYou will also share your HW03 notebook with me as your submission.\nComplete Rosalind problems 14 through 20 in the same format as you used for HW 1.\n\nNote that for this set, some problems direct you to use web-based programs rather than writing your own python code.\nFor each Rosalind problem, use chunks of Markdown text and python code to work out your solution.\nEach Rosalind problem will give you a sample data and output to work on. Then, when you are ready, you will download a new dataset and past the corresponding result into the prompt box on Rosalind. I am not asking you to submit code to Rosalind as you will save it in your Colab notebook.\n\nIn-class peer review holds an additional 4 points in the grading scheme, so be sure to finesse your notebook for easy reading.",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>CSC483 HW03</span>"

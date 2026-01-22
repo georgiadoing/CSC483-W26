@@ -300,7 +300,7 @@
     "href": "04-Notes/week3.html#alignment-link",
     "title": "Week 3",
     "section": "",
-    "text": "https://bioboot.github.io/bimm143_W20/class-material/nw/",
+    "text": "alignment example:\nhttps://bioboot.github.io/bimm143_W20/class-material/nw/",
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
@@ -348,6 +348,28 @@
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/nw_example.html",
+    "href": "04-Notes/nw_example.html",
+    "title": "Alignment Example",
+    "section": "",
+    "text": "Syllabus",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Alignment Example</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/reading_slides.html",
+    "href": "04-Notes/reading_slides.html",
+    "title": "Alignment Example",
+    "section": "",
+    "text": "Syllabus",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Alignment Example</span>"
     ]
   }
 ]

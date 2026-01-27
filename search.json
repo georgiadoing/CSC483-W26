@@ -384,6 +384,17 @@
     ]
   },
   {
+    "objectID": "04-Notes/week4.html",
+    "href": "04-Notes/week4.html",
+    "title": "Week 4",
+    "section": "",
+    "text": "link to gene sequence “seqA”: https://drive.google.com/file/d/1oKqj_bLUblFTVP2pfp48Aj-8SqM1Cz1l/view?usp=sharing",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Week 4</span>"
+    ]
+  },
+  {
     "objectID": "04-Notes/nw_example.html",
     "href": "04-Notes/nw_example.html",
     "title": "Alignment Example",
@@ -391,7 +402,7 @@
     "text": "Needleman-Wunsch Alignment Example",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Alignment Example</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Alignment Example</span>"
     ]
   },
   {
@@ -402,7 +413,7 @@
     "text": "Slides (html)",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Reading Scientific Papers</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Reading Scientific Papers</span>"
     ]
   }
 ]

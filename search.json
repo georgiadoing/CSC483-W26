@@ -252,6 +252,39 @@
     ]
   },
   {
+    "objectID": "03-Assignments/csc483_hw04.html",
+    "href": "03-Assignments/csc483_hw04.html",
+    "title": "CSC483 HW03",
+    "section": "",
+    "text": "CSC 483: Homework 4, Due Feb 3, 2026, at 1 pm (with time for me to make copies before class)",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>CSC483 HW03</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc483_hw04.html#rosalind-problem-20-sequence-alignment.-3-pts-4-pts-of-pr",
+    "href": "03-Assignments/csc483_hw04.html#rosalind-problem-20-sequence-alignment.-3-pts-4-pts-of-pr",
+    "title": "CSC483 HW03",
+    "section": "1. Rosalind problem 20: sequence & alignment. (3 pts + 4 pts of PR)",
+    "text": "1. Rosalind problem 20: sequence & alignment. (3 pts + 4 pts of PR)\n\nMake a copy of your homework colab template, save it to your drive, and rename it: [Name]_CSC483_HW04.ipynb\nYou will also share your HW04 notebook with me as your submission.\nComplete Rosalind problem 20 in the same format as you used for HW 1.\n\nNote that scoring matrices can be loaded via a python library:\n!pip install scoring-matrices\nfrom scoring_matrices import ScoringMatrix\nblosum62 = ScoringMatrix.from_name(\"BLOSUM62\")\nblosum62['A', 'C']\n\nIn-class peer review holds an additional 4 points in the grading scheme, so be sure to finesse your notebook for easy reading.",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>CSC483 HW03</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc483_hw04.html#update-check-in-notebook-1-pts",
+    "href": "03-Assignments/csc483_hw04.html#update-check-in-notebook-1-pts",
+    "title": "CSC483 HW03",
+    "section": "2. Update Check-in Notebook (1 pts)",
+    "text": "2. Update Check-in Notebook (1 pts)\n\nMove your reflections from HW1, HW2 and HW3 into your check-in notebook.\nReview your check-in notebook and scores for last week’s homework assignment\nInclude a Markdown chunk that attests to my notes or requests a correction/update",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>CSC483 HW03</span>"
+    ]
+  },
+  {
     "objectID": "04-Notes/week1.html",
     "href": "04-Notes/week1.html",
     "title": "Week 1",
@@ -259,7 +292,7 @@
     "text": "Week 1 slides",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 1</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 1</span>"
     ]
   },
   {
@@ -270,7 +303,7 @@
     "text": "E coli metadata activity",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 2</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 2</span>"
     ]
   },
   {
@@ -281,7 +314,7 @@
     "text": "colab notebook: https://colab.research.google.com/drive/1X18-sF7Spht9ZXZlDkY2S_zvgEEf4xJG?usp=sharing\nmetadata 1: https://drive.google.com/file/d/1BB7M3eWo8zPuxmlwSKMzE_RBeYrjv1n0/view?usp=sharing\nmetadata 2: https://drive.google.com/file/d/18_PkR_sOLsQshSM4O1n2hVOcZoxgn8E0/view?usp=sharing\nmetadata 3: https://drive.google.com/file/d/1_cJGV1gwHXzgUe7DMwHVI28nhJcma2tt/view?usp=sharing\n\n\nWeek 2 slides",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 2</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 2</span>"
     ]
   },
   {
@@ -292,7 +325,7 @@
     "text": "Alignment link",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -303,7 +336,7 @@
     "text": "alignment example:\nhttps://bioboot.github.io/bimm143_W20/class-material/nw/",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -314,7 +347,7 @@
     "text": "E coli metadata activity\n\ncolab notebook: https://colab.research.google.com/drive/1X18-sF7Spht9ZXZlDkY2S_zvgEEf4xJG?usp=sharing\nmetadata 1: https://drive.google.com/file/d/1BB7M3eWo8zPuxmlwSKMzE_RBeYrjv1n0/view?usp=sharing\nmetadata 2: https://drive.google.com/file/d/18_PkR_sOLsQshSM4O1n2hVOcZoxgn8E0/view?usp=sharing\nmetadata 3: https://drive.google.com/file/d/1_cJGV1gwHXzgUe7DMwHVI28nhJcma2tt/view?usp=sharing",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -325,7 +358,7 @@
     "text": "Link to data processing reading\n\noriginal paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC9948711/\nreview on gene expression compendia: https://pmc.ncbi.nlm.nih.gov/articles/PMC9396250/",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -336,7 +369,7 @@
     "text": "Notes on reading scientific paper\n\nfrom a previous Biological Data Science course at JAX\ncolab notebok: https://drive.google.com/file/d/1V7MIeRD7Lp8a2hEwKD_qLd67Vk2mSc24/view?usp=sharing\nLink to the slides",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -347,7 +380,7 @@
     "text": "Khan Academy on the Central Dogma of Meluclar Biology\n\nfrom AP biology course\nhttps://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/translation/a/intro-to-gene-expression-central-dogma\nchapters on gene expression, the genetic code, translation and more",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -358,7 +391,7 @@
     "text": "Needleman-Wunsch Alignment Example",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Alignment Example</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Alignment Example</span>"
     ]
   },
   {
@@ -369,7 +402,7 @@
     "text": "Slides (html)",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reading Scientific Papers</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Reading Scientific Papers</span>"
     ]
   }
 ]

@@ -254,34 +254,34 @@
   {
     "objectID": "03-Assignments/csc483_hw04.html",
     "href": "03-Assignments/csc483_hw04.html",
-    "title": "CSC483 HW03",
+    "title": "CSC483 HW04",
     "section": "",
     "text": "CSC 483: Homework 4, Due Feb 3, 2026, at 1 pm (with time for me to make copies before class)",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>CSC483 HW03</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>CSC483 HW04</span>"
     ]
   },
   {
     "objectID": "03-Assignments/csc483_hw04.html#rosalind-problem-20-sequence-alignment.-3-pts-4-pts-of-pr",
     "href": "03-Assignments/csc483_hw04.html#rosalind-problem-20-sequence-alignment.-3-pts-4-pts-of-pr",
-    "title": "CSC483 HW03",
+    "title": "CSC483 HW04",
     "section": "1. Rosalind problem 20: sequence & alignment. (3 pts + 4 pts of PR)",
     "text": "1. Rosalind problem 20: sequence & alignment. (3 pts + 4 pts of PR)\n\nMake a copy of your homework colab template, save it to your drive, and rename it: [Name]_CSC483_HW04.ipynb\nYou will also share your HW04 notebook with me as your submission.\nComplete Rosalind problem 20 in the same format as you used for HW 1.\n\nNote that scoring matrices can be loaded via a python library:\n!pip install scoring-matrices\nfrom scoring_matrices import ScoringMatrix\nblosum62 = ScoringMatrix.from_name(\"BLOSUM62\")\nblosum62['A', 'C']\n\nIn-class peer review holds an additional 4 points in the grading scheme, so be sure to finesse your notebook for easy reading.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>CSC483 HW03</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>CSC483 HW04</span>"
     ]
   },
   {
     "objectID": "03-Assignments/csc483_hw04.html#update-check-in-notebook-1-pts",
     "href": "03-Assignments/csc483_hw04.html#update-check-in-notebook-1-pts",
-    "title": "CSC483 HW03",
+    "title": "CSC483 HW04",
     "section": "2. Update Check-in Notebook (1 pts)",
     "text": "2. Update Check-in Notebook (1 pts)\n\nMove your reflections from HW1, HW2 and HW3 into your check-in notebook.\nReview your check-in notebook and scores for last week’s homework assignment\nInclude a Markdown chunk that attests to my notes or requests a correction/update",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>CSC483 HW03</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>CSC483 HW04</span>"
     ]
   },
   {

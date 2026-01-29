@@ -388,7 +388,7 @@
     "href": "04-Notes/week4.html",
     "title": "Week 4",
     "section": "",
-    "text": "link to gene sequence “seqA”: https://drive.google.com/file/d/1oKqj_bLUblFTVP2pfp48Aj-8SqM1Cz1l/view?usp=sharing\nsecond notebook introducing data: https://colab.research.google.com/drive/18TgoNGN94OJwZiSyUcyqPE70sAEy-axB?usp=sharing",
+    "text": "link to gene sequence “seqA”: https://drive.google.com/file/d/1oKqj_bLUblFTVP2pfp48Aj-8SqM1Cz1l/view?usp=sharing\nsecond notebook introducing data: https://colab.research.google.com/drive/18TgoNGN94OJwZiSyUcyqPE70sAEy-axB?usp=sharing\n\ngene data (presense/absence table for strains): https://drive.google.com/file/d/1nrqoTceHmyqjUse8bieVQgZ6QffrLs4E/view?usp=sharing\nraw transcription data (pseudo-counts): https://drive.google.com/file/d/1wnA-urTPtpvM748_Vcl8sbTt73ePNG29/view?usp=drive_link\ncolumn-wise normalized transcription data (transcripts per million): https://drive.google.com/file/d/1I9KDxptuRBnpAtIW7h7l1Tpjdcm3MgS7/view?usp=drive_link\nscaled transcription data (filtered and normalized as in the paper, but for e coli): https://drive.google.com/file/d/1-pN6E-JwuQw-zKVeqW7N61AggnftqSE1/view?usp=drive_link",
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Week 4</span>"

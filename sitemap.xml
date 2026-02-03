@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://georgiadoing.github.io/CSC483-W26/index.html</loc>
-    <lastmod>2026-01-12T22:49:42.934Z</lastmod>
+    <lastmod>2026-02-03T05:02:08.712Z</lastmod>
   </url>
   <url>
     <loc>https://georgiadoing.github.io/CSC483-W26/02-Main/schedule.html</loc>
@@ -35,6 +35,14 @@
   <url>
     <loc>https://georgiadoing.github.io/CSC483-W26/03-Assignments/csc483_hw04.html</loc>
     <lastmod>2026-01-27T03:25:08.294Z</lastmod>
+  </url>
+  <url>
+    <loc>https://georgiadoing.github.io/CSC483-W26/03-Assignments/csc483_hw05.html</loc>
+    <lastmod>2026-02-03T05:00:28.803Z</lastmod>
+  </url>
+  <url>
+    <loc>https://georgiadoing.github.io/CSC483-W26/03-Assignments/final_project.html</loc>
+    <lastmod>2026-02-03T04:50:25.967Z</lastmod>
   </url>
   <url>
     <loc>https://georgiadoing.github.io/CSC483-W26/04-Notes/week1.html</loc>
@@ -70,6 +78,6 @@
   </url>
   <url>
     <loc>https://georgiadoing.github.io/CSC483-W26/CSC483Notes.pdf</loc>
-    <lastmod>2026-02-03T05:01:09.837Z</lastmod>
+    <lastmod>2026-02-03T05:04:45.318Z</lastmod>
   </url>
 </urlset>

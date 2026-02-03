@@ -465,7 +465,7 @@
     "href": "04-Notes/week5.html",
     "title": "Week 5",
     "section": "",
-    "text": "Paper on dimensionality reduction: Feldner-Busztin_et_al_2023\ncontinuing with the second notebook introducing data: https://colab.research.google.com/drive/18TgoNGN94OJwZiSyUcyqPE70sAEy-axB?usp=sharing",
+    "text": "Paper on dimensionality reduction: Feldner-Busztin_et_al_2023\ncontinuing with the second notebook introducing data: https://colab.research.google.com/drive/18TgoNGN94OJwZiSyUcyqPE70sAEy-axB?usp=sharing\nDim reduction in single-cell RNAseq data:Hackenberg et al 2025\n\n\n\nReview on dimensionality reduction: Wani 2025\nSurvey of dim reduction across scientific domains: Cashman et al 2025",
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Week 5</span>"

@@ -258,7 +258,11 @@ Documentation</a>
   <ul>
   <li><a href="#csc-483-homework-5-due-feb-10-2026-at-1-pm" id="toc-csc-483-homework-5-due-feb-10-2026-at-1-pm" class="nav-link active" data-scroll-target="#csc-483-homework-5-due-feb-10-2026-at-1-pm">CSC 483: Homework 5, Due Feb 10, 2026, at 1 pm</a>
   <ul class="collapse">
-  <li><a href="#begin-your-project-notebook-2-pts-2pts-in-pr" id="toc-begin-your-project-notebook-2-pts-2pts-in-pr" class="nav-link" data-scroll-target="#begin-your-project-notebook-2-pts-2pts-in-pr">1. Begin your project notebook (2 pts + 2pts in PR)</a></li>
+  <li><a href="#begin-your-project-notebook-2-pts-2pts-in-pr" id="toc-begin-your-project-notebook-2-pts-2pts-in-pr" class="nav-link" data-scroll-target="#begin-your-project-notebook-2-pts-2pts-in-pr">1. Begin your project notebook (2 pts + 2pts in PR)</a>
+  <ul class="collapse">
+  <li><a href="#decision-points" id="toc-decision-points" class="nav-link" data-scroll-target="#decision-points">Decision points</a></li>
+  <li><a href="#mini-steps" id="toc-mini-steps" class="nav-link" data-scroll-target="#mini-steps">Mini-steps</a></li>
+  </ul></li>
   <li><a href="#update-check-in-notebook-1-pts" id="toc-update-check-in-notebook-1-pts" class="nav-link" data-scroll-target="#update-check-in-notebook-1-pts">2. Update Check-in Notebook (1 pts)</a></li>
   </ul></li>
   </ul>
@@ -287,10 +291,40 @@ Documentation</a>
 <p><a href="https://colab.research.google.com/drive/1xqpoZnPbJjISUX3gsE59iw5CO-XQ6nNc?usp=sharing" class="uri">https://colab.research.google.com/drive/1xqpoZnPbJjISUX3gsE59iw5CO-XQ6nNc?usp=sharing</a></p>
 <ol start="2" type="1">
 <li><p>Read through the guidelines, but then you can delete the markdown cells with instructions, they are available on the course website.</p></li>
-<li><p>Load whiechever dataset from first_data or second_data you are most interested in. Careful of data sizes!</p></li>
-<li><p>Add an exploratory plot with a similar level of finesse as we plotted in class last week but perhaps with slightly more of an understanding of the data you now have.</p></li>
-<li><p>Add a markdown cell free-writing on what question you might answer in your project, using your data.</p></li>
+<li><p>Load whichever dataset and meta-data from first_data or second_data you are most interested in. Careful of data sizes!</p></li>
+<li><p>Add an exploratory plot with a similar level of finesse as we plotted in class (as in it does not need to be perfect), like a PCA or t-SNE.</p></li>
+<li><p>Add a markdown cell with some notes doing your best to describe why and how we are making PCA and t-SNE plots.</p></li>
 </ol>
+<p>Note: You do not need to complete all of the following, but for reference, recall the in-class instructions from the second_data notebook:</p>
+<section id="decision-points" class="level3">
+<h3 class="anchored" data-anchor-id="decision-points">Decision points</h3>
+<ol type="1">
+<li>use smaller rnaseq datasets ( filtered 6k x 16k) OR use gene P/A</li>
+<li>reduce dim of genes OR dim of samples (transpose or not to transpose)</li>
+<li>connect to metadata of samples OR of genes</li>
+</ol>
+<ul>
+<li>red by genes means plotting samples and vv</li>
+<li>merge rnaseq with sample metadata, use SRX numbers</li>
+<li>merge gene p/a with annotation, use first_name_comp</li>
+<li>merge rnaseq with gene annotation use first_name_comp</li>
+</ul>
+<ol start="4" type="1">
+<li>Choose a color scheme</li>
+<li>Does DR technique separate out groups, as seen by color?</li>
+</ol>
+</section>
+<section id="mini-steps" class="level3">
+<h3 class="anchored" data-anchor-id="mini-steps">Mini-steps</h3>
+<ol type="1">
+<li>color all points on PCA NOT blue</li>
+<li>color half the points one color, half another</li>
+<li>color the <em>first</em> sample a unique color</li>
+<li>load metadata (as we did in first_data)</li>
+<li>turn pca from numpy array to pd df</li>
+<li>figure out rownames for PCA df, based on column names df4</li>
+</ol>
+</section>
 </section>
 <section id="update-check-in-notebook-1-pts" class="level2">
 <h2 class="anchored" data-anchor-id="update-check-in-notebook-1-pts">2. Update Check-in Notebook (1 pts)</h2>

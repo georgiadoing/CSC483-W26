@@ -340,6 +340,28 @@
     ]
   },
   {
+    "objectID": "03-Assignments/csc483_hw07.html",
+    "href": "03-Assignments/csc483_hw07.html",
+    "title": "CSC483 HW07",
+    "section": "",
+    "text": "CSC 483: Homework 7, Due Feb 24, 2026, at 1 pm",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>CSC483 HW07</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc483_hw07.html#project-draft-5-pts-5pts-in-pr",
+    "href": "03-Assignments/csc483_hw07.html#project-draft-5-pts-5pts-in-pr",
+    "title": "CSC483 HW07",
+    "section": "1. Project Draft (5 pts + 5pts in PR)",
+    "text": "1. Project Draft (5 pts + 5pts in PR)\n\nIn a new Colab notebook, using your previous Colab notebook as an outline/guide, conduct your analyses. Come to class ready for peer review. This will not be the final draft you are graded on, but it will be a chance for feedback from your peers and me before you submit the draft that will be graded.\n\nreference the project rubric as you go - this is a very flexible assignment\nremember to cite any references\nalso think about which highlights of your results you will use for your presentation\nif you are feeling stuck, utilize my office hours, the librarian consultation services (https://www.union.edu/schaffer-library/ask-a-librarian), and/or each other! Just include visits/conversations in your refernces.\n\nEnd by writing out questions you were unable to answer. This doesn’t need to be a full reflection, but might help you pivot your project.\n\n\nDecision points\n\nuse smaller rnaseq datasets ( filtered 6k x 16k) OR use gene P/A\nreduce dim of genes OR dim of samples (transpose or not to transpose)\nconnect to metadata of samples OR of genes\n\n\nred by genes means plotting samples and vv\nmerge rnaseq with sample metadata, use SRX numbers\nmerge gene p/a with annotation, use first_name_comp\nmerge rnaseq with gene annotation use first_name_comp\n\n\nChoose a color scheme\nDoes DR technique separate out groups, as seen by color?",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>CSC483 HW07</span>"
+    ]
+  },
+  {
     "objectID": "03-Assignments/final_project.html",
     "href": "03-Assignments/final_project.html",
     "title": "Final Project",
@@ -347,7 +369,7 @@
     "text": "Project Details\nThe goal of the final project is to explore an unruly set of biology data and find a story to tell. You may use the strain-level gene data (DNA), the gene expression data (RNA) and/or the sample annotations (meta-data). With whatever data you choose, find an intresting question to answer that challenges:\nBOTH are equally valued.\nHere are some tips / thoughts about specifically what I need to see:",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Final Project</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Final Project</span>"
     ]
   },
   {
@@ -358,7 +380,7 @@
     "text": "your analytic skills (using Python to get, manipulate, analyze and visualize)\nyour story telling skills (how do you use the above, to tell a coherent story using data)\n\n\n\n\nThe data are not already pre-processed or perfectly packaged so you will need to perform some (but not all) of merging, joining, creating new columns, selecting columns, changing types of data. These operations are likely best done using the Pandas library.\nTo tailor your data to your question/story, you will need to decide criteria for including/excluding data - both rows (e.g. genes or samples) and columns (e.g samples, strains or meta-data feilds). It is impossible to give minimum or maximum requirements on data size. However, too little data ( less than 500 instances) leaves little chance for finding useful patterns. Too few attributes (columns, less than 5) means that you either need to merge in complementary data, or create your own additional columns. Conversely too much data (in rows or columns) means that you almost certainly have to START reducing the size of your data for realistic processing on Colab, even in a high-mem runtime.\nYou will need to create visualizations. But, don’t just graph everything because you can, think about what plots you can show that best assist with your story.\nI would like some specific analytics - discussion in combination with analytic approaches - i.e. what features are important for a specific problem, what trends exist in the data and how do you explain them? I’m not looking for you to be right, I’m looking for your story to be well-motivated by data\nI cannot tell you how long your notebook should be. HOWEVER consider the size of the grade which this notebook is worth. It should contain paragraphs of text that could serve as sections of a paper (introduction, methods, results, discussion) in addition to the plots and tables.\nI am looking to learn. Part of your grade will be in how well YOU take ME on a journey through data which honestly, at the end, you are likely to find something I never would have. Telling that story is a combination of code (show me results, do not comment out the good stuff) and the write up. This IS part essay, part presentation, part coding exercise.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Final Project</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Final Project</span>"
     ]
   },
   {
@@ -369,7 +391,7 @@
     "text": "Draft Rubric\n\n\n\n\n\n\n\n\n\n\n\n\nExceeding expectations\nArriving at expectations\nNot meeting Expectations\n\n\n\n\n\nAnalytical / Mathematic\nBroad use of Pandas such as merging, joining, creating new columns, selecting columns, changing types of data.\nSome use (1-2 instances) of Pandas such as selecting data or summarizing columns.\nNo data manipulation using Pandas and/or data sets are left as loaded.\n\n\n\n\nVisualizations are chosen carefully in order to convey multiple levels of information.\nSome visualizations\nVisualizations don’t contribute to the story in clear ways.\n\n\n\n\nData selection is thoughful and considers rows and columns or multiple data types (DNA, RNA, meta-data)\nOne type of data is used, but it is “large” enough to support conclusions\nData is left unfiltered or is too restricted to support conclusions.\n\n\n\n\n\n\n\n\n\n\nCommunication / Storytelling\nWriting builds a convincing story by explaining analysis results, providing interpretation and strong evidence that the data is understood.\nThere’s a story but it is missing pieces: results are partially explain, insufficient evidence that data was understood\nNo discernible story; demonstrates a lack of engagement with the data\n\n\n\n\nAnalysis asks and answers a clearly motivated question.\nA question is posed but no clear answer or larger implications are conveyed\nNo question is posed.\n\n\n\n\n\n\n\n\n\n\nReflective\nStudent thoughtfully identified specific strengths and areas for improvement. A complete picture of the student’s work process with a plan for greater success in the future.\nStudent identified strengths or areas for improvement but lacked specificity or sufficient development in either area. Only a partial picture of the student’s process.\nReflection lacked considerations and areas of improvement, did not incorporate or address suggestions from peer review.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Final Project</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Final Project</span>"
     ]
   },
   {
@@ -380,7 +402,7 @@
     "text": "Week 1 slides",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Week 1</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Week 1</span>"
     ]
   },
   {
@@ -391,7 +413,7 @@
     "text": "E coli metadata activity",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Week 2</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Week 2</span>"
     ]
   },
   {
@@ -402,7 +424,7 @@
     "text": "colab notebook: https://colab.research.google.com/drive/1X18-sF7Spht9ZXZlDkY2S_zvgEEf4xJG?usp=sharing\nmetadata 1: https://drive.google.com/file/d/1BB7M3eWo8zPuxmlwSKMzE_RBeYrjv1n0/view?usp=sharing\nmetadata 2: https://drive.google.com/file/d/18_PkR_sOLsQshSM4O1n2hVOcZoxgn8E0/view?usp=sharing\nmetadata 3: https://drive.google.com/file/d/1_cJGV1gwHXzgUe7DMwHVI28nhJcma2tt/view?usp=sharing\n\n\nWeek 2 slides",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Week 2</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Week 2</span>"
     ]
   },
   {
@@ -413,7 +435,7 @@
     "text": "Alignment link",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -424,7 +446,7 @@
     "text": "alignment example:\nhttps://bioboot.github.io/bimm143_W20/class-material/nw/",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -435,7 +457,7 @@
     "text": "E coli metadata activity\n\ncolab notebook: https://colab.research.google.com/drive/1X18-sF7Spht9ZXZlDkY2S_zvgEEf4xJG?usp=sharing\nmetadata 1: https://drive.google.com/file/d/1BB7M3eWo8zPuxmlwSKMzE_RBeYrjv1n0/view?usp=sharing\nmetadata 2: https://drive.google.com/file/d/18_PkR_sOLsQshSM4O1n2hVOcZoxgn8E0/view?usp=sharing\nmetadata 3: https://drive.google.com/file/d/1_cJGV1gwHXzgUe7DMwHVI28nhJcma2tt/view?usp=sharing",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -446,7 +468,7 @@
     "text": "Link to data processing reading\n\noriginal paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC9948711/\nreview on gene expression compendia: https://pmc.ncbi.nlm.nih.gov/articles/PMC9396250/",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -457,7 +479,7 @@
     "text": "Notes on reading scientific paper\n\nfrom a previous Biological Data Science course at JAX\ncolab notebok: https://drive.google.com/file/d/1V7MIeRD7Lp8a2hEwKD_qLd67Vk2mSc24/view?usp=sharing\nLink to the slides",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -468,7 +490,7 @@
     "text": "Khan Academy on the Central Dogma of Meluclar Biology\n\nfrom AP biology course\nhttps://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/translation/a/intro-to-gene-expression-central-dogma\nchapters on gene expression, the genetic code, translation and more",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -479,7 +501,7 @@
     "text": "link to gene sequence “seqA”: https://drive.google.com/file/d/1oKqj_bLUblFTVP2pfp48Aj-8SqM1Cz1l/view?usp=sharing\nsecond notebook introducing data: https://colab.research.google.com/drive/18TgoNGN94OJwZiSyUcyqPE70sAEy-axB?usp=sharing\n\ngene data (presense/absence table for strains): https://drive.google.com/file/d/1nrqoTceHmyqjUse8bieVQgZ6QffrLs4E/view?usp=sharing\nraw transcription data (pseudo-counts): https://drive.google.com/file/d/1wnA-urTPtpvM748_Vcl8sbTt73ePNG29/view?usp=drive_link\ncolumn-wise normalized transcription data (transcripts per million): https://drive.google.com/file/d/1I9KDxptuRBnpAtIW7h7l1Tpjdcm3MgS7/view?usp=drive_link\nscaled transcription data (filtered and normalized as in the paper, but for e coli): https://drive.google.com/file/d/1-pN6E-JwuQw-zKVeqW7N61AggnftqSE1/view?usp=drive_link",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Week 4</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Week 4</span>"
     ]
   },
   {
@@ -490,7 +512,7 @@
     "text": "Paper on dimensionality reduction: Feldner-Busztin_et_al_2023\nt-SNE visualizations: Distill Blog\nt-SNE on gene expression: JEFworks github\ncontinuing with the second notebook introducing data: https://colab.research.google.com/drive/18TgoNGN94OJwZiSyUcyqPE70sAEy-axB?usp=sharing\nDim reduction in single-cell RNAseq data:Hackenberg et al 2025\n\n\n\nReview on dimensionality reduction: Wani 2025\nSurvey of dim reduction across scientific domains: Cashman et al 2025",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Week 5</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Week 5</span>"
     ]
   },
   {
@@ -501,7 +523,7 @@
     "text": "Visualizations",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Week 6</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Week 6</span>"
     ]
   },
   {
@@ -512,7 +534,18 @@
     "text": "still using PANDAS\nmatplotlib\nseaborn\nplotnine package\nplotnine_prism\ndata-to-vis\npython graph gallery\nthe second_data notebook has been updated: https://colab.research.google.com/drive/18TgoNGN94OJwZiSyUcyqPE70sAEy-axB?usp=sharing\nI’ll be continuing plotting examples in a fresh notebook, updated to include Tuesday’s notes: https://colab.research.google.com/drive/1F2ToU-AIkFrRJWwrASQgoqsrSO5TjKP7?usp=sharing",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Week 6</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Week 6</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/week7.html",
+    "href": "04-Notes/week7.html",
+    "title": "Week 7",
+    "section": "",
+    "text": "PyDESeq2 documentation: https://pydeseq2.readthedocs.io/en/stable/\nPYDeSeq2 paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC10502239/",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Week 7</span>"
     ]
   },
   {
@@ -523,7 +556,7 @@
     "text": "Needleman-Wunsch Alignment Example",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Alignment Example</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Alignment Example</span>"
     ]
   },
   {
@@ -534,7 +567,7 @@
     "text": "Slides (html)",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Reading Scientific Papers</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Reading Scientific Papers</span>"
     ]
   }
 ]

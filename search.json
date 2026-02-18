@@ -498,7 +498,7 @@
     "href": "04-Notes/week4.html",
     "title": "Week 4",
     "section": "",
-    "text": "link to gene sequence “seqA”: https://drive.google.com/file/d/1oKqj_bLUblFTVP2pfp48Aj-8SqM1Cz1l/view?usp=sharing\nsecond notebook introducing data: https://colab.research.google.com/drive/18TgoNGN94OJwZiSyUcyqPE70sAEy-axB?usp=sharing\n\ngene data (presense/absence table for strains): https://drive.google.com/file/d/1nrqoTceHmyqjUse8bieVQgZ6QffrLs4E/view?usp=sharing\nraw transcription data (pseudo-counts): https://drive.google.com/file/d/1wnA-urTPtpvM748_Vcl8sbTt73ePNG29/view?usp=drive_link\ncolumn-wise normalized transcription data (transcripts per million): https://drive.google.com/file/d/1I9KDxptuRBnpAtIW7h7l1Tpjdcm3MgS7/view?usp=drive_link\nscaled transcription data (filtered and normalized as in the paper, but for e coli): https://drive.google.com/file/d/1-pN6E-JwuQw-zKVeqW7N61AggnftqSE1/view?usp=drive_link",
+    "text": "link to gene sequence “seqA”\nsecond notebook introducing data\n[gene annotation data]https://drive.google.com/file/d/1nrqoTceHmyqjUse8bieVQgZ6QffrLs4E/view?usp=sharing : presense/absence table for strains\nraw transcription data : quaai-alignments counts from Salmon\ncolumn-wise normalized transcription data : TPM stands for ‘transcripts per million’, normalizes for different total read numbers per sample\nscaled and filtered transcription data : filtered and normalized as in the paper, but for e coli",
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Week 4</span>"
@@ -509,7 +509,7 @@
     "href": "04-Notes/week5.html",
     "title": "Week 5",
     "section": "",
-    "text": "Paper on dimensionality reduction: Feldner-Busztin_et_al_2023\nt-SNE visualizations: Distill Blog\nt-SNE on gene expression: JEFworks github\ncontinuing with the second notebook introducing data: https://colab.research.google.com/drive/18TgoNGN94OJwZiSyUcyqPE70sAEy-axB?usp=sharing\nDim reduction in single-cell RNAseq data:Hackenberg et al 2025\n\n\n\nReview on dimensionality reduction: Wani 2025\nSurvey of dim reduction across scientific domains: Cashman et al 2025",
+    "text": "Paper on dimensionality reduction: Feldner-Busztin_et_al_2023\nt-SNE visualizations: Distill Blog\nt-SNE on gene expression: JEFworks github\ncontinuing with the second_data introducing data.\nDim reduction in single-cell RNAseq data:Hackenberg et al 2025\n\n\n\nReview on dimensionality reduction: Wani 2025\nSurvey of dim reduction across scientific domains: Cashman et al 2025",
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>Week 5</span>"
@@ -531,7 +531,7 @@
     "href": "04-Notes/week6.html#visualizations",
     "title": "Week 6",
     "section": "",
-    "text": "still using PANDAS\nmatplotlib\nseaborn\nplotnine package\nplotnine_prism\ndata-to-vis\npython graph gallery\nthe second_data notebook has been updated: https://colab.research.google.com/drive/18TgoNGN94OJwZiSyUcyqPE70sAEy-axB?usp=sharing\nI’ll be continuing plotting examples in a fresh notebook, updated to include Tuesday’s notes: https://colab.research.google.com/drive/1F2ToU-AIkFrRJWwrASQgoqsrSO5TjKP7?usp=sharing",
+    "text": "still using PANDAS\nmatplotlib\nseaborn\nplotnine package\nplotnine_prism\ndata-to-vis\npython graph gallery\nthe second_data notebook has been updated: &lt;&gt;\nI’ll be continuing plotting examples in a fresh plotting_data notebook, updated to include Tuesday’s notes.",
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>19</span>  <span class='chapter-title'>Week 6</span>"
@@ -542,7 +542,7 @@
     "href": "04-Notes/week7.html",
     "title": "Week 7",
     "section": "",
-    "text": "PyDESeq2 documentation: https://pydeseq2.readthedocs.io/en/stable/\nPYDeSeq2 paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC10502239/",
+    "text": "PyDESeq2 documentation: https://pydeseq2.readthedocs.io/en/stable/\nPYDeSeq2 paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC10502239/\nRoary Pangenome analysis (gene annotations and presence/absence data): https://sanger-pathogens.github.io/Roary/\nNCBI Run Tables (metadata): Some Field Descriptions/Documentation",
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>Week 7</span>"

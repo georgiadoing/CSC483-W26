@@ -14,7 +14,7 @@
     "href": "index.html#announcements",
     "title": "Course: CSC:483 Special Topics - Applied Biological Data Science\nDocumentation",
     "section": "Announcements",
-    "text": "Announcements\nCS Fest next Thursday, Feb 19th!…. CS Fest Survey\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nWednesday 2:00 pm - 3:30 pm\nThursday 4:00 pm - 5:30 pm\nsubject to change, check course website for most up-tp-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
+    "text": "Announcements\nTONIGHT Wold Atrium (in front of Starbucks) 5-7 pm… join us for CS Fest!!! Food, prizes and more!\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nWednesday 2:00 pm - 3:30 pm\nThursday 4:00 pm - 5:30 pm\nsubject to change, check course website for most up-tp-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -498,7 +498,7 @@
     "href": "04-Notes/week4.html",
     "title": "Week 4",
     "section": "",
-    "text": "link to gene sequence “seqA”\nsecond notebook introducing data\n[gene annotation data]https://drive.google.com/file/d/1nrqoTceHmyqjUse8bieVQgZ6QffrLs4E/view?usp=sharing : presense/absence table for strains\nraw transcription data : quaai-alignments counts from Salmon\ncolumn-wise normalized transcription data : TPM stands for ‘transcripts per million’, normalizes for different total read numbers per sample\nscaled and filtered transcription data : filtered and normalized as in the paper, but for e coli",
+    "text": "link to gene sequence “seqA”\nsecond notebook introducing data\ngene annotation data: presense/absence table for strains\nraw transcription data: quasi-alignments counts from Salmon\ncolumn-wise normalized transcription data: TPM stands for ‘transcripts per million’, normalizes for different total read numbers per sample\nscaled and filtered transcription data: filtered and normalized as in the paper, but for e coli",
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Week 4</span>"
@@ -542,7 +542,7 @@
     "href": "04-Notes/week7.html",
     "title": "Week 7",
     "section": "",
-    "text": "PyDESeq2 documentation: https://pydeseq2.readthedocs.io/en/stable/\nPYDeSeq2 paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC10502239/\nRoary Pangenome analysis (gene annotations and presence/absence data): https://sanger-pathogens.github.io/Roary/\nNCBI Run Tables (metadata): Some Field Descriptions/Documentation",
+    "text": "PyDESeq2 documentation: https://pydeseq2.readthedocs.io/en/stable/\nPYDeSeq2 paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC10502239/\nRoary Pangenome analysis (gene annotations and presence/absence data): https://sanger-pathogens.github.io/Roary/\nNCBI Run Tables (metadata): Some Field Descriptions/Documentation\nhypothesis_testing notebook from Tuesday",
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>Week 7</span>"

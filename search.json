@@ -542,7 +542,7 @@
     "href": "04-Notes/week7.html",
     "title": "Week 7",
     "section": "",
-    "text": "PyDESeq2 documentation: https://pydeseq2.readthedocs.io/en/stable/\nPYDeSeq2 paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC10502239/\nRoary Pangenome analysis (gene annotations and presence/absence data): https://sanger-pathogens.github.io/Roary/\nNCBI Run Tables (metadata): Some Field Descriptions/Documentation\nhypothesis_testing notebook from Tuesday",
+    "text": "PyDESeq2 documentation: https://pydeseq2.readthedocs.io/en/stable/\nPYDeSeq2 paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC10502239/\nRoary Pangenome analysis (gene annotations and presence/absence data): https://sanger-pathogens.github.io/Roary/\nNCBI Run Tables (metadata): Some Field Descriptions/Documentation\nhypothesis_testing notebook from Tuesday\n“raw” data https://drive.google.com/file/d/1IsrR-MFhrEWUFD45N5o_RcXVeQCYYyHV/view?usp=sharing",
     "crumbs": [
       "Notes",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>Week 7</span>"

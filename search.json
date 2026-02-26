@@ -582,6 +582,17 @@
     ]
   },
   {
+    "objectID": "04-Notes/week8.html",
+    "href": "04-Notes/week8.html",
+    "title": "Week 8",
+    "section": "",
+    "text": "Review on clustering: Wani 2024",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Week 8</span>"
+    ]
+  },
+  {
     "objectID": "04-Notes/nw_example.html",
     "href": "04-Notes/nw_example.html",
     "title": "Alignment Example",
@@ -589,7 +600,7 @@
     "text": "Needleman-Wunsch Alignment Example",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Alignment Example</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Alignment Example</span>"
     ]
   },
   {
@@ -600,7 +611,7 @@
     "text": "Slides (html)",
     "crumbs": [
       "Notes",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Reading Scientific Papers</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Reading Scientific Papers</span>"
     ]
   }
 ]

@@ -351,11 +351,11 @@
     ]
   },
   {
-    "objectID": "03-Assignments/csc483_hw07.html#project-draft-5-pts-5pts-in-pr",
-    "href": "03-Assignments/csc483_hw07.html#project-draft-5-pts-5pts-in-pr",
+    "objectID": "03-Assignments/csc483_hw07.html#project-draft-5-pts",
+    "href": "03-Assignments/csc483_hw07.html#project-draft-5-pts",
     "title": "CSC483 HW07",
-    "section": "1. Project Draft (5 pts + 5pts in PR)",
-    "text": "1. Project Draft (5 pts + 5pts in PR)\n\nIn a new Colab notebook, using your previous Colab notebook as an outline/guide, conduct your analyses. Come to class ready for peer review. This will not be the final draft you are graded on, but it will be a chance for feedback from your peers and me before you submit the draft that will be graded.\n\nreference the project rubric as you go - this is a very flexible assignment\nremember to cite any references\nalso think about which highlights of your results you will use for your presentation\nif you are feeling stuck, utilize my office hours, the librarian consultation services (https://www.union.edu/schaffer-library/ask-a-librarian), and/or each other! Just include visits/conversations in your refernces.\n\nEnd by writing out questions you were unable to answer. This doesn’t need to be a full reflection, but might help you pivot your project.\n\n\nDecision points\n\nuse smaller rnaseq datasets ( filtered 6k x 16k) OR use gene P/A\nreduce dim of genes OR dim of samples (transpose or not to transpose)\nconnect to metadata of samples OR of genes\n\n\nred by genes means plotting samples and vv\nmerge rnaseq with sample metadata, use SRX numbers\nmerge gene p/a with annotation, use first_name_comp\nmerge rnaseq with gene annotation use first_name_comp\n\n\nChoose a color scheme\nDoes DR technique separate out groups, as seen by color?",
+    "section": "1. Project Draft (5 pts )",
+    "text": "1. Project Draft (5 pts )\n\nIn a new Colab notebook, using your previous Colab notebook as an outline/guide, conduct your analyses. Come to class ready for peer review. This will not be the final draft you are graded on, but it will be a chance for feedback from your peers and me before you submit the draft that will be graded.\n\nreference the project rubric as you go - this is a very flexible assignment\nremember to cite any references\nalso think about which highlights of your results you will use for your presentation\nif you are feeling stuck, utilize my office hours, the librarian consultation services (https://www.union.edu/schaffer-library/ask-a-librarian), and/or each other! Just include visits/conversations in your refernces.\n\nEnd by writing out questions you were unable to answer. This doesn’t need to be a full reflection, but might help you pivot your project.\n\n\nDecision points\n\nuse smaller rnaseq datasets ( filtered 6k x 16k) OR use gene P/A\nreduce dim of genes OR dim of samples (transpose or not to transpose)\nconnect to metadata of samples OR of genes\n\n\nred by genes means plotting samples and vv\nmerge rnaseq with sample metadata, use SRX numbers\nmerge gene p/a with annotation, use first_name_comp\nmerge rnaseq with gene annotation use first_name_comp\n\n\nChoose a color scheme\nDoes DR technique separate out groups, as seen by color?",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>CSC483 HW07</span>"
@@ -373,11 +373,11 @@
     ]
   },
   {
-    "objectID": "03-Assignments/csc483_hw08.html#project-draft-5-pts-5pts-in-pr",
-    "href": "03-Assignments/csc483_hw08.html#project-draft-5-pts-5pts-in-pr",
+    "objectID": "03-Assignments/csc483_hw08.html#project-draft-3-pts-5pts-in-pr-5-pts-pr",
+    "href": "03-Assignments/csc483_hw08.html#project-draft-3-pts-5pts-in-pr-5-pts-pr",
     "title": "CSC483 HW08",
-    "section": "1. Project Draft (5 pts + 5pts in PR)",
-    "text": "1. Project Draft (5 pts + 5pts in PR)\n\nMake substantial progress on your project. Come to class ready for another round of peer review (using the project rubric) followed by a practice presentation. This will be your last chance for feedback from your peers and me before you submit the draft that will be graded.\n\nBe sure to include at least the following sections:\n+ introduction to your focus/question\n+ methodological description of what data you are using and how you will process it\n+ results as plots and quantiative summaires/statistics\n\nEnd by beginning your reflection on what your think your project’s strengths and weaknesses are. Be sure to address both the project product as well as the process you went through to create it.",
+    "section": "1. Project Draft (3 pts + 5pts in PR + 5 pts PR)",
+    "text": "1. Project Draft (3 pts + 5pts in PR + 5 pts PR)\n\nMake substantial progress on your project. Come to class ready for another round of peer review (using the project rubric) followed by a practice presentation. This will be your last chance for feedback from your peers and me before you submit the draft that will be graded.\n\nBe sure to include at least the following sections:\n+ introduction to your focus/question\n+ methodological description of what data you are using and how you will process it\n+ results as plots and quantiative summaires/statistics\n\nEnd by beginning your reflection on what your think your project’s strengths and weaknesses are. Be sure to address both the project product as well as the process you went through to create it.",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>CSC483 HW08</span>"

@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="doingg@union.edu">
 
-<title>Course: CSC:483 Special Topics - Applied Biological Data Science Documentation</title>
+<title>CSC483 - Applied Biological Data Science - Week 2,3 &amp; 4 – Course: CSC:483 Special Topics - Applied Biological Data Science\
+Documentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,28 +21,64 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./02-Main/schedule.html" rel="next">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f59f578aac83223b69f47cfbacfca593.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../03-Back/references.html" rel="next">
+<link href="../04-Notes/reading_slides.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f59f578aac83223b69f47cfbacfca593.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -72,17 +108,16 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="site_libs/quarto-contrib/quarto-project/fredguth/tufte/styles.css">
-<meta property="og:title" content="Course: CSC:483 Special Topics - Applied Biological Data Science
+<link rel="stylesheet" href="../site_libs/quarto-contrib/quarto-project/fredguth/tufte/styles.css">
+<meta property="og:title" content="CSC483 - Applied Biological Data Science - Week 2,3 &amp; 4 – Course: CSC:483 Special Topics - Applied Biological Data Science
 Documentation">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://georgiadoing.github.io/CSC483-W26/Images/bds_examples.svg">
 <meta property="og:site_name" content="Course: CSC:483 Special Topics - Applied Biological Data Science\
 Documentation
 ">
 </head>
 
-<body class="nav-sidebar floating slimcontent quarto-light">
+<body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -91,7 +126,7 @@ Documentation
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-title">Home</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../04-Notes/week1.html">Notes</a></li><li class="breadcrumb-item"><a href="../04-Notes/first_data.html"><span class="chapter-title">CSC483 - Applied Biological Data Science - Week 2,3 &amp; 4</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -105,10 +140,10 @@ Documentation
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="./index.html" class="sidebar-logo-link">
+      <a href="../index.html" class="sidebar-logo-link">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Course: CSC:483 Special Topics - Applied Biological Data Science<br>
+      <a href="../">Course: CSC:483 Special Topics - Applied Biological Data Science<br>
 Documentation</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/georgiadoing/CSC483-W26/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
@@ -124,27 +159,27 @@ Documentation</a>
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Home</span></a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-Main/schedule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Schedule</span></a>
+  <a href="../02-Main/schedule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Schedule</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-Main/resources.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Resources</span></a>
+  <a href="../02-Main/resources.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Resources</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-Main/syllabus.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Syllabus</span></a>
+  <a href="../02-Main/syllabus.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Syllabus</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-Main/grading.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Grading</span></a>
+  <a href="../02-Main/grading.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Grading</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -158,52 +193,52 @@ Documentation</a>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Assignments/csc483_hw01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW01</span></a>
+  <a href="../03-Assignments/csc483_hw01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW01</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Assignments/csc483_hw02.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW02</span></a>
+  <a href="../03-Assignments/csc483_hw02.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW02</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Assignments/csc483_hw03.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW03</span></a>
+  <a href="../03-Assignments/csc483_hw03.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW03</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Assignments/csc483_hw04.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW04</span></a>
+  <a href="../03-Assignments/csc483_hw04.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW04</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Assignments/csc483_hw05.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW05</span></a>
+  <a href="../03-Assignments/csc483_hw05.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW05</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Assignments/csc483_hw06.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW06</span></a>
+  <a href="../03-Assignments/csc483_hw06.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW06</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Assignments/csc483_hw07.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW07</span></a>
+  <a href="../03-Assignments/csc483_hw07.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW07</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Assignments/csc483_hw08.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW08</span></a>
+  <a href="../03-Assignments/csc483_hw08.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW08</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Assignments/csc483_hw09.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW09</span></a>
+  <a href="../03-Assignments/csc483_hw09.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 HW09</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Assignments/final_project.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Final Project</span></a>
+  <a href="../03-Assignments/final_project.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Final Project</span></a>
   </div>
 </li>
       </ul>
@@ -219,57 +254,57 @@ Documentation</a>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-Notes/week1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 1</span></a>
+  <a href="../04-Notes/week1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-Notes/week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 2</span></a>
+  <a href="../04-Notes/week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-Notes/week3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 3</span></a>
+  <a href="../04-Notes/week3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 3</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-Notes/week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 4</span></a>
+  <a href="../04-Notes/week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 4</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-Notes/week5.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 5</span></a>
+  <a href="../04-Notes/week5.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 5</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-Notes/week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 6</span></a>
+  <a href="../04-Notes/week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 6</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-Notes/week7.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 7</span></a>
+  <a href="../04-Notes/week7.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 7</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-Notes/week8.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 8</span></a>
+  <a href="../04-Notes/week8.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 8</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-Notes/nw_example.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Alignment Example</span></a>
+  <a href="../04-Notes/nw_example.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Alignment Example</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-Notes/reading_slides.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Reading Scientific Papers</span></a>
+  <a href="../04-Notes/reading_slides.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Reading Scientific Papers</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-Notes/first_data.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CSC483 - Applied Biological Data Science - Week 2,3 &amp; 4</span></a>
+  <a href="../04-Notes/first_data.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">CSC483 - Applied Biological Data Science - Week 2,3 &amp; 4</span></a>
   </div>
 </li>
       </ul>
@@ -285,7 +320,7 @@ Documentation</a>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Back/references.html" class="sidebar-item-text sidebar-link">
+  <a href="../03-Back/references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
@@ -297,85 +332,68 @@ Documentation</a>
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a>
-  <ul class="collapse">
-  <li><a href="#announcements" id="toc-announcements" class="nav-link" data-scroll-target="#announcements">Announcements</a></li>
-  <li><a href="#announcements-1" id="toc-announcements-1" class="nav-link" data-scroll-target="#announcements-1">Announcements</a>
-  <ul class="collapse">
-  <li><a href="#office-hours" id="toc-office-hours" class="nav-link" data-scroll-target="#office-hours">Office Hours</a></li>
-  </ul></li>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a></li>
-  </ul></li>
+  <li><a href="#setup" id="toc-setup" class="nav-link active" data-scroll-target="#setup">Setup</a></li>
+  <li><a href="#first-look-at-the-meta-data" id="toc-first-look-at-the-meta-data" class="nav-link" data-scroll-target="#first-look-at-the-meta-data">First Look at the “Meta” data</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/georgiadoing/CSC483-W26/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/georgiadoing/CSC483-W26/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.dev/georgiadoing/CSC483-W26/blob/main/04-Notes/first_data.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/georgiadoing/CSC483-W26/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content page-columns page-full column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7"><p>Course: CSC:483 Special Topics - Applied Biological Data Science<br>
-Documentation</p></h1></header>
+<main class="content column-page-right" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../04-Notes/week1.html">Notes</a></li><li class="breadcrumb-item"><a href="../04-Notes/first_data.html"><span class="chapter-title">CSC483 - Applied Biological Data Science - Week 2,3 &amp; 4</span></a></li></ol></nav><h1 class="title display-7"><span class="chapter-title">CSC483 - Applied Biological Data Science - Week 2,3 &amp; 4</span></h1></header>
 
 <header id="title-block-header">
 
-<p class="author">doingg@union.edu</p>
 
 </header>
 
 
-<section id="welcome" class="level1 page-columns page-full">
-<h1>Welcome</h1>
-<p>The course website for <a href="#c-desc">CSC483</a>, part of the Union College <a href="https://www.union.edu/computer-science/courses-requirements">CS curriculum</a>. Here you can find our weekly schedule, assignmnets and resources.</p>
-
-<div class="no-row-height column-margin column-container"><div id="fig-cover" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-cover-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="./bds_examples.png"><img src="./Images/bds_examples.svg" class="img-fluid figure-img"></a>
+<p>Georgia Doing (doingg@union.edu)</p>
+<p>1/13/26</p>
+<p>1/26/26</p>
+<p>A first notebook in data exploration.</p>
+<ul>
+<li><p>Uses the <a href="https://pandas.pydata.org/docs/user_guide/index.html">PANDAS</a> library.</p></li>
+<li><p>Data is metadata of all RNA sequences experiments done on the bacterium Escherichia coli that are publicly available in the USA or EU.</p></li>
+<li><p>Make a copy of the data for your google drive: https://drive.google.com/file/d/1BB7M3eWo8zPuxmlwSKMzE_RBeYrjv1n0/view?usp=sharing</p></li>
+<li><p>Another data file: https://drive.google.com/file/d/18_PkR_sOLsQshSM4O1n2hVOcZoxgn8E0/view?usp=sharing</p></li>
+<li><p>Yet another: https://drive.google.com/file/d/1_cJGV1gwHXzgUe7DMwHVI28nhJcma2tt/view?usp=sharing</p></li>
+</ul>
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>Load library and mount you google drive folders</p>
+<div id="cell-3" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;executionInfo&quot;,&quot;value&quot;:{&quot;elapsed&quot;:326,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1769618278033,&quot;user&quot;:{&quot;displayName&quot;:&quot;Georgia Doing&quot;,&quot;userId&quot;:&quot;18109069095929331544&quot;},&quot;user_tz&quot;:300}}">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># pandas is installed on Colab runtime environments</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#import pandas as pd</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># https://pandas.pydata.org/docs/user_guide/options.html</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#pd.set_option('display.max_columns', None)</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#pd.set_option('display.max_rows', None)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cover-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.1: Course Banner
-</figcaption>
-</figure>
-</div></div><section id="announcements" class="level2">
-<h2 class="anchored" data-anchor-id="announcements">Announcements</h2>
+<div id="cell-5" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;executionInfo&quot;,&quot;value&quot;:{&quot;elapsed&quot;:14879,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1769618292914,&quot;user&quot;:{&quot;displayName&quot;:&quot;Georgia Doing&quot;,&quot;userId&quot;:&quot;18109069095929331544&quot;},&quot;user_tz&quot;:300}}" data-outputid="495c0858-9784-4002-a789-23167a4134c8">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># similar to first HW</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">#from google.colab import drive</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#drive.mount('/content/drive/')</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
 </section>
-<section id="announcements-1" class="level2">
-<h2 class="anchored" data-anchor-id="announcements-1">Announcements</h2>
+<section id="first-look-at-the-meta-data" class="level2">
+<h2 class="anchored" data-anchor-id="first-look-at-the-meta-data">First Look at the “Meta” data</h2>
+<p>note: “meta” data here means information <em>about</em> the experiments that were done rather than the “biological data” that was collected during the experiments themselves</p>
+<div id="cell-7" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;executionInfo&quot;,&quot;value&quot;:{&quot;elapsed&quot;:2130,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1769618295043,&quot;user&quot;:{&quot;displayName&quot;:&quot;Georgia Doing&quot;,&quot;userId&quot;:&quot;18109069095929331544&quot;},&quot;user_tz&quot;:300}}" data-outputid="a96d3c04-028d-47ee-e337-3a67f6db42e1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load the data into a Pandas DataFrame</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#df = pd.read_csv('drive/MyDrive/Teaching/CSC483-W26/data/SraRunTable_Ec_07_25_25_working_v4.csv')</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># take a lok at the first 5 rows</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#df.head()</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
 <ul>
-<li><strong>No class Tues</strong>
-<ul>
-<li>I’ll be giving a seminar during common hour, feel free to come!</li>
-<li>Karp 005, 12:50 - 1:45 pm</li>
-</ul></li>
-<li>Final project Colab notebooks due Wednesday</li>
-<li>Presentations start Thursday (last day of class)
-<ul>
-<li>still attend even if you are not presenting</li>
-</ul></li>
-<li>peer review points can be made-up by commenting on an extra projects and putting the link in your check-in notebook</li>
+<li>what are the rows and columns?</li>
+<li>is this all the rows? columns?</li>
+<li>do you recognize any words?</li>
 </ul>
-<section id="office-hours" class="level3">
-<h3 class="anchored" data-anchor-id="office-hours">Office Hours</h3>
-<ul>
-<li>Student/Office Hours:
-<ul>
-<li>Steinmetz 108B</li>
-<li>Wednesday 2:00 pm - 3:30 pm</li>
-<li>Thursday 4:00 pm - 5:30 pm</li>
-<li>subject to change, check course website for most up-tp-date schedule</li>
-<li>drop-in or schedule a 15 minute slot: <a href="https://calendar.app.google/8bus6pfDvyphR9ar5" class="uri">https://calendar.app.google/8bus6pfDvyphR9ar5</a></li>
-<li>by appointment for another time or over zoom</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<div id="c-desc">
-<section id="course-description" class="level2">
-<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>In this course we will gain familiarity and practice in methods of analyzing biological sequence data and the large datasets that have resulted from decades of high-throughput experimentation. We will follow how data are turned into biological knowledge through the general workflow of (1) sequence alignment, (2) dimensionality reduction and (3) statistical, comparative hypothesis testing. At each stage we will compare state-of-the-art deterministic methods with emerging machine learning-based counterparts and interrogate trade-offs in performance and interpretability. We will explore the role of interdisciplinary communication in biological data science and the iterative process of program development and implementation in exploring the great biological unknowns. This course will use Python and R and introduce libraries useful in applied computer science and guidance on how different approaches are used in different contexts. No prior biological knowledge will be assumed.</p>
-<p>Prerequisite(s): MTH 197 and a C- or higher in CSC 151. Recommended: CSC 250. MTH 199 can be substituted for MTH 197 CC: SET Note: Course can be repeated for credit under different topics. Consult with the department chair for more information.</p>
-</section>
+<div id="cell-11" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span><span class="op">+</span><span class="dv">3</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 
 
@@ -782,12 +800,15 @@ Figure&nbsp;1.1: Course Banner
     }
   });
   </script>
-<nav class="page-navigation column-body">
+<nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
+      <a href="../04-Notes/reading_slides.html" class="pagination-link" aria-label="Reading Scientific Papers">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Reading Scientific Papers</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./02-Main/schedule.html" class="pagination-link" aria-label="Schedule">
-        <span class="nav-page-text"><span class="chapter-title">Schedule</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../03-Back/references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -796,4 +817,4 @@ Figure&nbsp;1.1: Course Banner
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/georgiadoing/CSC483-W26/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/georgiadoing/CSC483-W26/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.dev/georgiadoing/CSC483-W26/blob/main/04-Notes/first_data.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/georgiadoing/CSC483-W26/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

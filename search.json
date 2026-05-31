@@ -667,5 +667,27 @@
       "Notes",
       "<span class='chapter-number'>25</span>  <span class='chapter-title'>Reading Scientific Papers</span>"
     ]
+  },
+  {
+    "objectID": "04-Notes/first_data.html",
+    "href": "04-Notes/first_data.html",
+    "title": "CSC483 - Applied Biological Data Science - Week 2,3 & 4",
+    "section": "",
+    "text": "Setup\nGeorgia Doing (doingg@union.edu)\n1/13/26\n1/26/26\nA first notebook in data exploration.\nLoad library and mount you google drive folders\n# pandas is installed on Colab runtime environments\n#import pandas as pd\n\n# https://pandas.pydata.org/docs/user_guide/options.html\n#pd.set_option('display.max_columns', None)\n#pd.set_option('display.max_rows', None)\n# similar to first HW\n#from google.colab import drive\n#drive.mount('/content/drive/')",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>CSC483 - Applied Biological Data Science - Week 2,3 & 4</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/first_data.html#first-look-at-the-meta-data",
+    "href": "04-Notes/first_data.html#first-look-at-the-meta-data",
+    "title": "CSC483 - Applied Biological Data Science - Week 2,3 & 4",
+    "section": "First Look at the “Meta” data",
+    "text": "First Look at the “Meta” data\nnote: “meta” data here means information about the experiments that were done rather than the “biological data” that was collected during the experiments themselves\n\n# load the data into a Pandas DataFrame\n#df = pd.read_csv('drive/MyDrive/Teaching/CSC483-W26/data/SraRunTable_Ec_07_25_25_working_v4.csv')\n# take a lok at the first 5 rows\n#df.head()\n\n\nwhat are the rows and columns?\nis this all the rows? columns?\ndo you recognize any words?\n\n\n2+3",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>CSC483 - Applied Biological Data Science - Week 2,3 & 4</span>"
+    ]
   }
 ]

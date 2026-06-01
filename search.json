@@ -689,5 +689,38 @@
       "Notes",
       "<span class='chapter-number'>26</span>  <span class='chapter-title'>CSC483 - Applied Biological Data Science - Week 2,3 & 4</span>"
     ]
+  },
+  {
+    "objectID": "04-Notes/muk_to_do.html",
+    "href": "04-Notes/muk_to_do.html",
+    "title": "Phylo Transfer Learning Summer project to-do",
+    "section": "",
+    "text": "Georgia’s List",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Phylo Transfer Learning Summer project to-do</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/muk_to_do.html#georgias-list",
+    "href": "04-Notes/muk_to_do.html#georgias-list",
+    "title": "Phylo Transfer Learning Summer project to-do",
+    "section": "",
+    "text": "Get lab notebook setup\n\nSchedule lab meetings - update calendar\n- [ ] Group meeting once a week\n- [ ] 1-1 meetings also weekly or as-needed\n\nImplement tuner method in adage class\n\nE coli gene lists for enrichment analyses\n\nS aureus gene lists for enrichment analysis\n\nGet DNA sequences into google drive",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Phylo Transfer Learning Summer project to-do</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/muk_to_do.html#mukundans-list",
+    "href": "04-Notes/muk_to_do.html#mukundans-list",
+    "title": "Phylo Transfer Learning Summer project to-do",
+    "section": "Mukundan’s List",
+    "text": "Mukundan’s List\n\nChoose 3 papers to read\n\nMake an OSF account: https://osf.io/dashboard\n\n\nRNA/expression data\n\nLoad new e coli data for adage model\n\nDescriptive stats on e coli and s aureus compendia\n- [ ] Genes to drop - low expression across samples\n- [ ] Samples to drop - too many unexpressed genes\n- [ ] Plots of PCA, UMAP, t-SNE, etc.\n\nHyper-parameter search for e coli only model\n\nHyper-parameter search for s aureus only model\n\nPCA as linear control\n\n\n\nDNA/Genomic data\n\nFind blast python library (nt and aa alignment\n\nFind foldseek python library (structural alignment)\n- [ ] alt : just use commandline tool\n\nTest such lib in colab\n\nMake e coli and s aureus pangenomes into blast dbs\n\nReciprocal search of e coli genes to s aureus db and vice versa\n\nDescriptive stats/plots of hits and their e-scores, lengths, recall, precision, etc.\n\nFilter for best set of mutual hits (1-1 mapping of homologous genes)",
+    "crumbs": [
+      "Notes",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Phylo Transfer Learning Summer project to-do</span>"
+    ]
   }
 ]
